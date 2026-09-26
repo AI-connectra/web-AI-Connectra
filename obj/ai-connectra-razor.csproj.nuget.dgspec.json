@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Documents\\Codex\\2026-09-24\\files-mentioned-by-the-user-index\\outputs\\ai-connectra-razor\\ai-connectra-razor.csproj": {}
+    "C:\\Users\\User\\source\\repos\\AI-Connectra\\ai-connectra-razor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Documents\\Codex\\2026-09-24\\files-mentioned-by-the-user-index\\outputs\\ai-connectra-razor\\ai-connectra-razor.csproj": {
+    "C:\\Users\\User\\source\\repos\\AI-Connectra\\ai-connectra-razor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Documents\\Codex\\2026-09-24\\files-mentioned-by-the-user-index\\outputs\\ai-connectra-razor\\ai-connectra-razor.csproj",
+        "projectUniqueName": "C:\\Users\\User\\source\\repos\\AI-Connectra\\ai-connectra-razor.csproj",
         "projectName": "ai-connectra-razor",
-        "projectPath": "C:\\Users\\User\\Documents\\Codex\\2026-09-24\\files-mentioned-by-the-user-index\\outputs\\ai-connectra-razor\\ai-connectra-razor.csproj",
+        "projectPath": "C:\\Users\\User\\source\\repos\\AI-Connectra\\ai-connectra-razor.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Documents\\Codex\\2026-09-24\\files-mentioned-by-the-user-index\\outputs\\ai-connectra-razor\\obj\\",
+        "outputPath": "C:\\Users\\User\\source\\repos\\AI-Connectra\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
@@ -22,7 +22,7 @@
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\User\\Documents\\Codex\\2026-09-24\\files-mentioned-by-the-user-index\\outputs\\ai-connectra-razor\\NuGet.Config",
+          "C:\\Users\\User\\source\\repos\\AI-Connectra\\NuGet.Config",
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.2.config",
