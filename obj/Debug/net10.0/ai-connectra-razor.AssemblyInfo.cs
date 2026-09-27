@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ai-connectra-razor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1be4a84366ec209a6309bd6f2b4ac06bb3a5fbd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e2b2e8fd88f80155f7df61e05b124bfe00a18e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("ai-connectra-razor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ai-connectra-razor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

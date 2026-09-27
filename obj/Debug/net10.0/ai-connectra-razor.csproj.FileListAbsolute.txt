@@ -64,12 +64,9 @@ C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\rjsmrazo
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\scopedcss\bundle\ai-connectra-razor.styles.css
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\g75bbz20ev-{0}-1cfpvebahg-1cfpvebahg.gz
-C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\8ngpqleldn-{0}-hk2x9r9232-hk2x9r9232.gz
-C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\lfkhnoqnlq-{0}-xcixrsfi8k-xcixrsfi8k.gz
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\bktb1j5qky-{0}-z9plmbaxod-z9plmbaxod.gz
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\088f8dosma-{0}-61n19gt1b8-61n19gt1b8.gz
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\cteomdlko0-{0}-hf0q7agwu7-hf0q7agwu7.gz
-C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\mawcdywa1u-{0}-m25nvsupct-m25nvsupct.gz
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\msd568jmlo-{0}-mtqnx3jr79-mtqnx3jr79.gz
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\9ybhtw3yk5-{0}-120oeaq2rm-120oeaq2rm.gz
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\staticwebassets.build.json
@@ -83,3 +80,6 @@ C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\refint\a
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\ai-connectra-razor.pdb
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\ai-connectra-razor.genruntimeconfig.cache
 C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\ref\ai-connectra-razor.dll
+C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\8ngpqleldn-{0}-3fuhdrmkj2-3fuhdrmkj2.gz
+C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\lfkhnoqnlq-{0}-mpprfuots0-mpprfuots0.gz
+C:\Users\User\source\repos\m-sharif-azad\AI-Connectra\obj\Debug\net10.0\compressed\mawcdywa1u-{0}-vcbpk5tfdc-vcbpk5tfdc.gz
