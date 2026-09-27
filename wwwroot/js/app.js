@@ -95,10 +95,25 @@
     // VIEW SWITCHING & ROUTING (CLEAN ARCHITECTURE)
     // ====================================================================
     function switchView(targetViewId) {
+      const isProjectView = targetViewId === 'viewProjectDetail';
+      const projectView = document.getElementById('viewProjectDetail');
+      if (projectView) {
+        projectView.hidden = !isProjectView;
+        // Inline display is intentional: it prevents any generic .active-stage
+        // rule or cached stylesheet from leaking project-only content into
+        // catalog, course, comparison, or relevance pages.
+        projectView.style.display = isProjectView ? '' : 'none';
+      }
+
       allViews.forEach(vId => {
         const el = document.getElementById(vId);
         if (el) el.classList.remove('active-stage');
       });
+
+      // Project-only material (facts, roadmap, deliverables, and next/previous links)
+      // must never be exposed by the catalog, course, or other non-project views.
+      document.querySelectorAll('#viewProjectDetail .project-detail-hero, #viewProjectDetail .project-page-content')
+        .forEach(section => { section.hidden = !isProjectView; });
 
       const target = document.getElementById(targetViewId);
       if (target) {

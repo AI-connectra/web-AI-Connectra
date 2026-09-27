@@ -621,7 +621,8 @@
     <!-- ====================================================================
          VIEW 3: PROJECT DEEP-DIVE COCKPIT VIEW (ALL HOVERS WORKING)
          ==================================================================== -->
-    <div class="view-stage container" id="viewProjectDetail">
+    <!-- Project-only content: this entire view is unavailable until a project card is opened. -->
+    <div class="view-stage container" id="viewProjectDetail" hidden style="display:none !important;">
       <div class="breadcrumbs-shell">
         <div class="breadcrumbs-trail">
           <span class="crumb-clickable" onclick="navigateToSubjects()">
@@ -671,9 +672,11 @@
             <text x="35" y="177">0</text><text x="181" y="177">validation</text><text x="317" y="177">result</text>
           </svg>
           <div class="hero-visual-legend"><span><i class="legend-ai"></i>AI model</span><span><i class="legend-baseline"></i>Baseline</span></div>
-        </div>
+        </aside>
       </div>
 
+      <!-- All project content below the hero is kept in this shared responsive shell. -->
+      <div class="project-page-content">
       <!-- Reusable quick facts: values are replaced for every selected project. -->
       <dl class="project-facts" aria-label="Project details">
         <div><dt>Level</dt><dd id="projectFactLevel">Intermediate</dd></div>
@@ -840,6 +843,7 @@
         <button class="btn-nav-proj" id="btnNextProject" onclick="navigateProjectOffset(1)">
           <span>Next Blueprint</span> <span>→</span>
         </button>
+      </div>
       </div>
     </div>
 
