@@ -1291,6 +1291,9 @@
       margin-bottom: 22px;
       font-size: 0.85rem;
     }
+    .metric-badge-strip-value-only {
+      justify-content: flex-start;
+    }
     .metric-badge-key {
       color: var(--text-dim);
       font-weight: 600;
@@ -1299,6 +1302,17 @@
       color: var(--blue-accent);
       font-family: 'JetBrains Mono', monospace;
       font-weight: 700;
+    }
+
+    /* Keep explanatory content easy to read across every page. */
+    main p,
+    main .project-card-summary,
+    main .project-section-heading p,
+    main .project-workflow-detail p,
+    main .project-submission-guide p,
+    main .roadmap-item span,
+    main .project-rubric td {
+      text-align: justify;
     }
 
     .btn-project-deepdive {

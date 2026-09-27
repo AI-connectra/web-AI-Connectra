@@ -536,7 +536,7 @@
         card.style.setProperty('--dept-color', meta.color || '#3b82f6');
         card.style.setProperty('--dept-glow', meta.glow || 'rgba(59, 130, 246, 0.45)');
 
-        const metricSnippet = p.performance_metrics ? p.performance_metrics.split(';')[0] : 'Validation Benchmark';
+        const metricSnippet = p.performance_metrics ? p.performance_metrics.split(';')[0] : '';
 
         card.innerHTML = `
           <div class="project-index-pill">#${String(index + 1).padStart(2, '0')}</div>
@@ -552,10 +552,11 @@
               ${(p.tech_stack || []).map(t => `<span class="tech-tag-pill">${t}</span>`).join('')}
             </div>
 
-            <div class="metric-badge-strip">
-              <span class="metric-badge-key">Benchmark</span>
-              <span class="metric-badge-val">${metricSnippet}</span>
-            </div>
+            ${metricSnippet ? `
+              <div class="metric-badge-strip metric-badge-strip-value-only">
+                <span class="metric-badge-val">${metricSnippet}</span>
+              </div>
+            ` : ''}
 
             <div class="btn-project-deepdive">
               <span>Deep-Dive Blueprint</span>
