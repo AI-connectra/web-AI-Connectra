@@ -3,619 +3,621 @@
     ViewData["Title"] = "AI Connectra | 200 Capstone Projects Across 10 Disciplines";
     Layout = "_Layout";
 }
-  <main>
+<main>
 
     <!-- ====================================================================
          VIEW 1: SUBJECTS CATALOG & FLAGSHIP COURSES (DEFAULT HOME PAGE)
          ==================================================================== -->
     <div class="view-stage active-stage container" id="viewSubjects">
-      
-      <!-- HERO STAGE -->
-                  <section class="hero-stage-academic" id="heroStage">
-        <div class="hero-ambient-pattern"></div>
 
-        <div class="hero-content-academic">
-          <!-- Top Academic Badge -->
-          <div class="academic-badge">
-            <span class="academic-badge-icon">🏛️</span>
-            <span>v3.0.0 · INTERDISCIPLINARY AI ACADEMY & APPLIED INDUSTRIAL LABS</span>
-          </div>
+        <!-- HERO STAGE -->
+        <section class="hero-stage-academic" id="heroStage">
+            <div class="hero-ambient-pattern"></div>
 
-          <!-- Clear, Authoritative Headline Centered on Project Concept -->
-          <h1 class="academic-hero-title">
-              From AI Concepts to Deployment. <br>
-              <span class="academic-title-highlight">Explore 200 Capstone Projects Across 10 Academic Disciplines.</span>
-          </h1>
+            <div class="hero-content-academic">
+                <!-- Top Academic Badge -->
+                <div class="academic-badge">
+                    <span class="academic-badge-icon">🏛️</span>
+                    <span>LEARN AI · CONNECT IT TO YOUR FIELD · BUILD SOMETHING USEFUL</span>
+                </div>
 
-          <!-- Direct Project Concept Subtitle -->
-          <p class="academic-hero-subtext">
-              AI Connectra connects your field with the power of AI through 200 capstone projects built for real-world applications. Explore one shared, interactive project experience across <strong>10 academic disciplines</strong>, with content that changes automatically when a learner selects a project.
-          </p>
+                <!-- Clear, Authoritative Headline Centered on Project Concept -->
+                <h1 class="academic-hero-title">
+                    Your Field. Powered by AI. <br>
+                    <span class="academic-title-highlight">200 Capstone Projects. 10 Academic Disciplines.</span>
+                </h1>
 
-          <!-- THE 3 CORE PILLARS OF AI CONNECTRA (PROJECT CONCEPT FRONT & CENTER) -->
-          <div class="academic-architecture-grid">
-            <!-- Card 1: The Academy (Free Theory) -->
-            <div class="academic-pillar-card" onclick="scrollToCourses()">
-              <div class="pillar-card-top">
-                <div class="pillar-icon-box blue-box">🎓</div>
-                <span class="pillar-tier-pill tier-free">100% Free Open-Access</span>
-              </div>
-              <h3 class="pillar-card-title">Curated Theory Academy</h3>
-              <p class="pillar-card-desc">
-                  Learn Python, Machine Learning, and Deep Learning through structured masterclasses, then apply your skills through 200 production-ready AI capstone projects.
-              </p>
-              <div class="pillar-mini-list">
-                <div class="pillar-mini-item"><span>🐍</span> <span><strong>Python for AI:</strong> Python, NumPy, Pandas, Automation</span></div>
-                <div class="pillar-mini-item"><span>🤖</span> <span><strong>Machine Learning:</strong> ML Models, Training, Evaluation</span></div>
-                <div class="pillar-mini-item"><span>🧠</span> <span><strong>Deep Learning:</strong> Neural Networks, CNNs, Transformers</span></div>
-              </div>
-              <div class="pillar-card-footer">
-                <span>Explore 3 Masterclasses</span>
-                <span>↓</span>
-              </div>
+                <!-- Direct Project Concept Subtitle -->
+                <p class="academic-hero-subtext">
+                    AI Connectra helps you turn what you study into practical AI projects. Explore 200 capstone projects across <strong>10 academic disciplines</strong>. Choose a project to see its goals, tools, step-by-step workflow, and expected outcomes—all in one interactive learning experience that adapts to your selection.
+                </p>
+
+                <!-- THE 3 CORE PILLARS OF AI CONNECTRA (PROJECT CONCEPT FRONT & CENTER) -->
+                <div class="academic-architecture-grid">
+                    <!-- Card 1: The Academy (Free Theory) -->
+                    <div class="academic-pillar-card" onclick="scrollToCourses()">
+                        <div class="pillar-card-top">
+                            <div class="pillar-icon-box blue-box">🎓</div>
+                            <span class="pillar-tier-pill tier-free">Free Theory Lessons</span>
+                        </div>
+                        <h3 class="pillar-card-title">Build Your AI Foundations</h3>
+                        <p class="pillar-card-desc">
+                            Start with Python, Machine Learning, and Deep Learning. Learn how the ideas work, then use them to tackle a capstone project that connects with your field.
+                        </p>
+                        <div class="pillar-mini-list">
+                            <div class="pillar-mini-item"><span>🐍</span> <span><strong>Python for AI:</strong> Write code, work with data, automate tasks</span></div>
+                            <div class="pillar-mini-item"><span>🤖</span> <span><strong>Machine Learning:</strong> Train models and understand their results</span></div>
+                            <div class="pillar-mini-item"><span>🧠</span> <span><strong>Deep Learning:</strong> Explore neural networks, images, and sequences</span></div>
+                        </div>
+                        <div class="pillar-card-footer">
+                            <span>Explore the 3 Learning Tracks</span>
+                            <span>↓</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 2: The Applied Lab (200 Projects) -->
+                    <div class="academic-pillar-card" onclick="scrollToSubjects()">
+                        <div class="pillar-card-top">
+                            <div class="pillar-icon-box purple-box">💼</div>
+                            <span class="pillar-tier-pill tier-lab">Hands-On Project Learning</span>
+                        </div>
+                        <h3 class="pillar-card-title">Find Your Capstone Project</h3>
+                        <p class="pillar-card-desc">
+                            Explore 20 projects in each of 10 disciplines. Select one that interests you and follow a clear path from understanding the problem to building and testing your solution.
+                        </p>
+                        <div class="pillar-mini-list">
+                            <div class="pillar-mini-item"><span>📦</span> <span><strong>Build & Share:</strong> Explore APIs, containers, and deployment tools</span></div>
+                            <div class="pillar-mini-item"><span>📊</span> <span><strong>Work with Data:</strong> Explore images, sensor readings, and domain datasets</span></div>
+                            <div class="pillar-mini-item"><span>📓</span> <span><strong>Your Workspace:</strong> Use Python, Colab, and project-specific AI tools</span></div>
+                        </div>
+                        <div class="pillar-card-footer">
+                            <span>Find a Project in Your Discipline</span>
+                            <span>↓</span>
+                        </div>
+                    </div>
+
+                    <!-- Card 3: Interdisciplinary Mission (Why Every Field Needs AI) -->
+                    <div class="academic-pillar-card" onclick="openDisciplineRelevanceView('eee')">
+                        <div class="pillar-card-top">
+                            <div class="pillar-icon-box amber-box">🧭</div>
+                            <span class="pillar-tier-pill tier-relevance">AI in Your Field</span>
+                        </div>
+                        <h3 class="pillar-card-title">See Where AI Fits Your Field</h3>
+                        <p class="pillar-card-desc">
+                            You already bring knowledge from your discipline. Learn how AI can help you explore its data, test ideas, and solve meaningful problems—and when a simpler approach may work better.
+                        </p>
+                        <div class="pillar-mini-list">
+                            <div class="pillar-mini-item"><span>⚡</span> <span><strong>EEE & Telecom:</strong> Forecast demand and analyse signals</span></div>
+                            <div class="pillar-mini-item"><span>🏗️</span> <span><strong>Civil & Agriculture:</strong> Explore building inspections and crop monitoring</span></div>
+                            <div class="pillar-mini-item"><span>🏥</span> <span><strong>Health & FinTech:</strong> Study image analysis and fraud detection</span></div>
+                        </div>
+                        <div class="pillar-card-footer">
+                            <span>Explore AI in Your Discipline</span>
+                            <span>→</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DISCIPLINE QUICK-SELECTOR STRIP (ZERO-SCROLLBAR, CENTERED PILLS) -->
+                <div class="academic-disciplines-strip">
+                    <div class="strip-label">CHOOSE YOUR FIELD. FIND YOUR NEXT PROJECT.</div>
+                    <div class="strip-pills-container">
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('eee')">
+                            <span>⚡</span> <span>Electrical (EEE)</span>
+                            <span class="pill-count-tag">20 Projects</span>
+                        </button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('ece')">
+                            <span>📡</span> <span>Telecom (ECE)</span>
+                            <span class="pill-count-tag">20 Projects</span>
+                        </button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('civil')">
+                            <span>🏗️</span> <span>Civil Engineering</span>
+                            <span class="pill-count-tag">20 Projects</span>
+                        </button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('agriculture')">
+                            <span>🌱</span> <span>Smart Agriculture</span>
+                            <span class="pill-count-tag">20 Projects</span>
+                        </button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('business')">
+                            <span>📈</span> <span>FinTech & Business</span>
+                            <span class="pill-count-tag">20 Projects</span>
+                        </button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('healthcare')">
+                            <span>🏥</span> <span>Healthcare & Bio</span>
+                            <span class="pill-count-tag">20 Projects</span>
+                        </button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('cs')"><span>💻</span> <span>Computer Science</span><span class="pill-count-tag">20 Projects</span></button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('mechanical')"><span>⚙️</span> <span>Mechanical</span><span class="pill-count-tag">20 Projects</span></button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('environment')"><span>🌍</span> <span>Environmental</span><span class="pill-count-tag">20 Projects</span></button>
+                        <button class="academic-pill-btn" onclick="openSubjectProjects('education')"><span>📚</span> <span>Education</span><span class="pill-count-tag">20 Projects</span></button>
+                    </div>
+                </div>
+
+                <!-- PRIMARY ACTION BUTTONS -->
+                <div class="academic-hero-actions">
+                    <button class="btn-academic-primary" onclick="scrollToCourses()">
+                        <span>🎓 Start with Free AI Theory</span>
+                        <span>↓</span>
+                    </button>
+                    <button class="btn-academic-secondary" onclick="scrollToSubjects()">
+                        <span>⚡ Browse 200 Capstone Projects</span>
+                        <span>↓</span>
+                    </button>
+                    <button class="btn-academic-outline" onclick="openCompareTracksView()">
+                        <span>💎 Compare Learning Tracks</span>
+                        <span>→</span>
+                    </button>
+                    <button class="btn-academic-outline" onclick="openDisciplineRelevanceView('eee')">
+                        <span>🧭 Explore AI in Your Field</span>
+                        <span>→</span>
+                    </button>
+                </div>
+
+                <!-- ACADEMIC PROOF-POINTS METRIC ROW -->
+                <div class="academic-metrics-grid">
+                    <div class="academic-metric-card">
+                        <span class="metric-val">3 Masterclasses</span>
+                        <span class="metric-lbl">Python · ML · Deep Learning</span>
+                    </div>
+                    <div class="academic-metric-card">
+                        <span class="metric-val">100 Days of ML</span>
+                        <span class="metric-lbl">Curated videos by CampusX</span>
+                    </div>
+                    <div class="academic-metric-card">
+                        <span class="metric-val">10 Disciplines</span>
+                        <span class="metric-lbl">Engineering, science, business, health & education</span>
+                    </div>
+                    <div class="academic-metric-card">
+                        <span class="metric-val">200 Projects</span>
+                        <span class="metric-lbl"><span style="color: #FF3B30;">Real-World Challenges</span></span>
+
+                    </div>
+                    <div class="academic-metric-card">
+                        <span class="metric-val">100% Free Theory</span>
+                        <span class="metric-lbl">Optional paid practical labs </span>
+                    </div>
+                </div>
             </div>
+        </section>
 
-            <!-- Card 2: The Applied Lab (200 Projects) -->
-            <div class="academic-pillar-card" onclick="scrollToSubjects()">
-              <div class="pillar-card-top">
-                <div class="pillar-icon-box purple-box">💼</div>
-                <span class="pillar-tier-pill tier-lab">Production Repositories</span>
-              </div>
-              <h3 class="pillar-card-title">200 Applied Capstone Projects</h3>
-              <p class="pillar-card-desc">
-                  Bridge AI concepts to real-world applications with 20 projects in each of 10 disciplines, all powered by one reusable project-detail page.
-              </p>
-              <div class="pillar-mini-list">
-                <div class="pillar-mini-item"><span>📦</span> <span><strong>Production Stack:</strong> FastAPI, Docker, Cloud Platforms</span></div>
-                <div class="pillar-mini-item"><span>📊</span> <span><strong>Curated Datasets:</strong> Medical images, Satellite data, Sensor data, IoT Streams</span></div>
-                <div class="pillar-mini-item"><span>📓</span> <span><strong>Framework Integration:</strong> PyTorch, Colab, TensorFlow & Visual Studio</span></div>
-              </div>
-              <div class="pillar-card-footer">
-                <span>Browse 200 Projects by Discipline</span>
-                <span>↓</span>
-              </div>
-            </div>
-
-            <!-- Card 3: Interdisciplinary Mission (Why Every Field Needs AI) -->
-            <div class="academic-pillar-card" onclick="openDisciplineRelevanceView('eee')">
-              <div class="pillar-card-top">
-                <div class="pillar-icon-box amber-box">🧭</div>
-                <span class="pillar-tier-pill tier-relevance">Interdisciplinary Mapping</span>
-              </div>
-              <h3 class="pillar-card-title">Why Every Major Must Learn AI</h3>
-              <p class="pillar-card-desc">
-                  Traditional methods alone struggle with today’s complex data-driven challenges. Domain specialists who combine AI with their expertise can build smarter, faster, and more impactful solutions.
-              </p>
-              <div class="pillar-mini-list">
-                <div class="pillar-mini-item"><span>⚡</span> <span><strong>EEE & Telecom:</strong> Smart grids, inverter harmonics & 5G MIMO</span></div>
-                <div class="pillar-mini-item"><span>🏗️</span> <span><strong>Civil & Agri:</strong> Drone crack vision & autonomous spraying</span></div>
-                <div class="pillar-mini-item"><span>🏥</span> <span><strong>Health & FinTech:</strong> 3D MRI tumor segmentation & fraud AI</span></div>
-              </div>
-              <div class="pillar-card-footer">
-                <span>View Interdisciplinary Deep-Dive</span>
-                <span>→</span>
-              </div>
-            </div>
-          </div>
-
-          <!-- DISCIPLINE QUICK-SELECTOR STRIP (ZERO-SCROLLBAR, CENTERED PILLS) -->
-          <div class="academic-disciplines-strip">
-            <div class="strip-label">EXPLORE 200 CAPSTONE PROJECTS MAPPED TO 10 DISCIPLINES:</div>
-            <div class="strip-pills-container">
-              <button class="academic-pill-btn" onclick="openSubjectProjects('eee')">
-                <span>⚡</span> <span>Electrical (EEE)</span>
-                <span class="pill-count-tag">20 Projects</span>
-              </button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('ece')">
-                <span>📡</span> <span>Telecom (ECE)</span>
-                <span class="pill-count-tag">20 Projects</span>
-              </button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('civil')">
-                <span>🏗️</span> <span>Civil Engineering</span>
-                <span class="pill-count-tag">20 Projects</span>
-              </button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('agriculture')">
-                <span>🌱</span> <span>Smart Agriculture</span>
-                <span class="pill-count-tag">20 Projects</span>
-              </button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('business')">
-                <span>📈</span> <span>FinTech & Business</span>
-                <span class="pill-count-tag">20 Projects</span>
-              </button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('healthcare')">
-                <span>🏥</span> <span>Healthcare & Bio</span>
-                <span class="pill-count-tag">20 Projects</span>
-              </button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('cs')"><span>💻</span> <span>Computer Science</span><span class="pill-count-tag">20 Projects</span></button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('mechanical')"><span>⚙️</span> <span>Mechanical</span><span class="pill-count-tag">20 Projects</span></button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('environment')"><span>🌍</span> <span>Environmental</span><span class="pill-count-tag">20 Projects</span></button>
-              <button class="academic-pill-btn" onclick="openSubjectProjects('education')"><span>📚</span> <span>Education</span><span class="pill-count-tag">20 Projects</span></button>
-            </div>
-          </div>
-
-          <!-- PRIMARY ACTION BUTTONS -->
-          <div class="academic-hero-actions">
-            <button class="btn-academic-primary" onclick="scrollToCourses()">
-              <span>🎓 Explore 3 Flagship Masterclasses (Free Theory)</span>
-              <span>↓</span>
-            </button>
-            <button class="btn-academic-secondary" onclick="scrollToSubjects()">
-              <span>⚡ Browse 200 Capstone Projects</span>
-              <span>↓</span>
-            </button>
-            <button class="btn-academic-outline" onclick="openCompareTracksView()">
-              <span>💎 Compare Free vs Paid Tracks</span>
-              <span>→</span>
-            </button>
-            <button class="btn-academic-outline" onclick="openDisciplineRelevanceView('eee')">
-              <span>🧭 Why Your Major Needs AI</span>
-              <span>→</span>
-            </button>
-          </div>
-
-          <!-- ACADEMIC PROOF-POINTS METRIC ROW -->
-          <div class="academic-metrics-grid">
-            <div class="academic-metric-card">
-              <span class="metric-val">3 Masterclasses</span>
-              <span class="metric-lbl">Python · ML · Deep Learning</span>
-            </div>
-            <div class="academic-metric-card">
-              <span class="metric-val">100 Days of ML</span>
-              <span class="metric-lbl">CampusX Curated Video Series</span>
-            </div>
-            <div class="academic-metric-card">
-              <span class="metric-val">10 Disciplines</span>
-              <span class="metric-lbl">Engineering, science, business, health & education</span>
-            </div>
-            <div class="academic-metric-card">
-                <span class="metric-val">200 Projects</span>
-                <span class="metric-lbl"><span style="color: #FF3B30;">Industrial Applications</span></span>
-                
-            </div>
-            <div class="academic-metric-card">
-              <span class="metric-val">100% Free Theory</span>
-              <span class="metric-lbl">+ Optional Applied Labs </span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- FLAGSHIP EDUCATIONAL ACADEMY SECTION -->
-      <div class="portal-heading-wrap" id="coursesSectionHeading" style="margin-top: 20px;">
-        <span class="section-tag-badge">ACADEMY & CORE TEACHING TRACKS</span>
-        <h2>Flagship Educational Masterclasses</h2>
-        <p>Our primary mission is world-class AI education. All core algorithmic theory and mathematical derivations are 100% free forever. The applied industrial practical track is premium for hands-on production mastery.</p>
-      </div>
-
-      <!-- DUAL-AUDIENCE VALUE PROPOSITION BAR -->
-      <div class="dual-audience-bar">
-        <!-- For Students -->
-        <div class="audience-card">
-          <div class="audience-header">
-            <div class="audience-icon">🎓</div>
-            <div>
-              <h3 class="audience-title">For Students & Researchers</h3>
-                        <span class="audience-subtitle">Free Theory Learning</span>
-            </div>
-          </div>
-          <p style="font-size: 0.94rem; color: var(--text-secondary); line-height: 1.6;">
-            Designed for university undergraduates, graduate researchers, and career-switchers who want deep mathematical intuition without gatekeeping:
-          </p>
-          <ul class="audience-list">
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-                        <span><strong>Core AI & Machine Learning Concepts:</strong> Learn supervised learning, unsupervised learning, neural networks, deep learning, and model evaluation.</span>
-            </li>
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-                        <span><strong> Academic-Focused Lessons:</strong> Understand the theory commonly taught in university courses and research programs.</span>
-            </li>
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-                        <span><strong>Preparation for Advanced Practice:</strong> Build the theoretical knowledge required before moving into production-oriented AI engineering.</span>
-            </li>
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-              <span><strong>Self-Paced Learning:</strong> Study essential topics at your own pace without any training fee.</span>
-            </li>
-            <li class="audience-item">
-                <span class="audience-check">✓</span>
-                <span><strong>Preparation for Advanced Practice:</strong> Build the theoretical knowledge required before moving into production-oriented AI engineering.</span>
-            </li>
-          </ul>
+        <!-- FLAGSHIP EDUCATIONAL ACADEMY SECTION -->
+        <div class="portal-heading-wrap" id="coursesSectionHeading" style="margin-top: 20px;">
+            <span class="section-tag-badge">BUILD YOUR FOUNDATIONS</span>
+            <h2>Learn the Skills Behind Your Project</h2>
+            <p>Start with free theory lessons in Python, Machine Learning, and Deep Learning. When you are ready to put those ideas into practice, explore the paid practical tracks and choose the one that supports your goals.</p>
         </div>
 
-        <!-- For Enterprise Clients -->
-        <div class="audience-card">
-          <div class="audience-header">
-            <div class="audience-icon">🏢</div>
-            <div>
-                        <h3 class="audience-title">Zero to Industry-Ready AI Engineer</h3>
-                        <span class="audience-subtitle">Paid Practical & Industry-Level Training</span>
-            </div>
-          </div>
-          <p style="font-size: 0.94rem; color: var(--text-secondary); line-height: 1.6;">
-            Tailored for engineering firms, tech startups, and industrial leaders deploying automated machine intelligence into physical systems:
-          </p>
-          <ul class="audience-list">
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-              <span><strong>High-Impact Portfolio Projects:</strong> Build real domain solutions across electrical, civil, agriculture, and healthcare to stand out in product.</span>
-            </li>
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-              <span><strong>Portfolio & Final-Year Projects:</strong>Build projects suitable for university submissions, research demonstrations, internships, job applications, and professional portfolios.</span>
-            </li>
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-              <span><strong>Custom Corporate Training Workshops:</strong> Upskill internal engineering departments on modern ML and Deep Learning workflows.</span>
-            </li>
-            <li class="audience-item">
-              <span class="audience-check">✓</span>
-              <span><strong>Real-World Data Practice:</strong> Work with practical datasets such as sensor telemetry, images, signals, medical data, business data, and domain-specific datasets.</span>
-            </li>
+        <!-- DUAL-AUDIENCE VALUE PROPOSITION BAR -->
+        <div class="dual-audience-bar">
+            <!-- For Students -->
+            <div class="audience-card">
+                <div class="audience-header">
+                    <div class="audience-icon">🎓</div>
+                    <div>
+                        <h3 class="audience-title">For Students & Researchers</h3>
+                        <span class="audience-subtitle">Learn the Foundations for Free</span>
+                    </div>
+                </div>
+                <p style="font-size: 0.94rem; color: var(--text-secondary); line-height: 1.6;">
+                    Whether you are starting your degree, planning a research project, or changing careers, begin with the ideas you need to understand and use AI:
+                </p>
+                <ul class="audience-list">
                     <li class="audience-item">
                         <span class="audience-check">✓</span>
-                        <span><strong>End-to-End AI Development:</strong>Work from data collection and preprocessing through model training, deployment, monitoring, and continuous improvement.</span>
+                        <span><strong>Understand the Core Ideas:</strong> Learn how supervised learning, unsupervised learning, and neural networks work—and how to judge a model's results.</span>
                     </li>
-          </ul>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong> Connect Theory to Your Studies:</strong> Make sense of the concepts you encounter in lectures, assignments, and research papers.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Prepare for Your First Project:</strong> Build the foundations to choose a problem, understand your data, and try a baseline model.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Learn at Your Own Pace:</strong> Revisit challenging topics and fit the free theory lessons around your schedule.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Build Your Confidence:</strong> Learn to explain why you chose a method and what its results actually tell you.</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- For Enterprise Clients -->
+            <div class="audience-card">
+                <div class="audience-header">
+                    <div class="audience-icon">🏢</div>
+                    <div>
+                        <h3 class="audience-title">Turn Learning into Practical Skills</h3>
+                        <span class="audience-subtitle">Paid Practical Learning</span>
+                    </div>
+                </div>
+                <p style="font-size: 0.94rem; color: var(--text-secondary); line-height: 1.6;">
+                    For students, researchers, and professionals who want to move from understanding AI to building, testing, and presenting their own work:
+                </p>
+                <ul class="audience-list">
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Projects Connected to Your Field:</strong> Choose a problem in your discipline and use your subject knowledge to guide the AI solution.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Work You Can Explain and Showcase:</strong>Develop a capstone for your portfolio, research demonstration, or final-year submission, following your institution's requirements.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Learning for Professional Teams:</strong> Explore how practical ML and Deep Learning workflows can support the work your team already does.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Practice with Relevant Data:</strong> Learn to prepare and assess data such as images, signals, sensor readings, and business records.</span>
+                    </li>
+                    <li class="audience-item">
+                        <span class="audience-check">✓</span>
+                        <span><strong>Follow the Full Project Process:</strong>Define the problem, prepare the data, train and test a model, then demonstrate your results and explain their limitations.</span>
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
 
-      <!-- 3 DETAILED FLAGSHIP COURSE CARDS ON DEFAULT PAGE (48PX GAP) -->
-      <div class="courses-grid-expanded" id="coursesGrid">
-        
-        <!-- COURSE 1: PYTHON -->
-        <div class="course-detail-card" style="--course-color: #38bdf8; --course-bg: rgba(56, 189, 248, 0.15); --course-glow: rgba(56, 189, 248, 0.4);" onclick="openCourseView('python')">
-          <div class="course-card-top">
-            <div class="course-icon-badge">🐍</div>
-            <div class="course-card-badge-row">
-              <span class="badge-free-tag">Free Theory (100% Open)</span>
-              <span class="badge-paid-tag">Paid Practical (Tk5000)</span>
-            </div>
-            <h3 class="course-card-title">Python Programming for AI & Scientific Computing</h3>
-            <p class="course-card-desc">
-                        Master the Python ecosystem behind modern AI, data science, and scientific computing—from language internals and clean architecture to high-performance numerical computing, data engineering, and automated production workflows.
-            </p>
+        <!-- 3 DETAILED FLAGSHIP COURSE CARDS ON DEFAULT PAGE (48PX GAP) -->
+        <div class="courses-grid-expanded" id="coursesGrid">
 
-            <!-- Dual-Track Mini Breakdown -->
-            <div class="course-tiers-mini-split">
-              <div class="tier-mini-box">
-                <span class="tier-mini-label free">Theory (Free)</span>
-                <div class="tier-mini-price">$0</div>
-                <div class="tier-mini-desc">Syntax, Memory Model, OOP, NumPy Vectorization, Pandas DataFrames</div>
-              </div>
-              <div class="tier-mini-box">
-                <span class="tier-mini-label paid">Practical (Paid)</span>
-                <div class="tier-mini-price">Tk5000</div>
-                            <div class="tier-mini-desc">15+ Industry-Style Projects • Advanced Python & OOP • NumPy • Vectorization • Pandas Data Workflows • Mentorship</div>
-              </div>
-            </div>
+            <!-- COURSE 1: PYTHON -->
+            <div class="course-detail-card" style="--course-color: #38bdf8; --course-bg: rgba(56, 189, 248, 0.15); --course-glow: rgba(56, 189, 248, 0.4);" onclick="openCourseView('python')">
+                <div class="course-card-top">
+                    <div class="course-icon-badge">🐍</div>
+                    <div class="course-card-badge-row">
+                        <span class="badge-free-tag">Free Theory</span>
+                        <span class="badge-paid-tag">Paid Practical (Tk5000)</span>
+                    </div>
+                    <h3 class="course-card-title">Python for AI & Scientific Computing</h3>
+                    <p class="course-card-desc">
+                        Build the Python skills your AI projects will rely on. Start with clear, working code, then learn to organise programs, analyse data, and automate everyday tasks.
+                    </p>
 
-            <!-- Syllabus Topics Preview -->
-            <div class="course-preview-topics-box">
-              <span class="course-preview-lbl">CORE SYLLABUS HIGHLIGHTS:</span>
-              <ul class="course-topic-list">
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
+                    <!-- Dual-Track Mini Breakdown -->
+                    <div class="course-tiers-mini-split">
+                        <div class="tier-mini-box">
+                            <span class="tier-mini-label free">Theory (Free)</span>
+                            <div class="tier-mini-price">$0</div>
+                            <div class="tier-mini-desc">Python basics, objects and memory, NumPy arrays, Pandas DataFrames</div>
+                        </div>
+                        <div class="tier-mini-box">
+                            <span class="tier-mini-label paid">Practical (Paid)</span>
+                            <div class="tier-mini-price">Tk5000</div>
+                            <div class="tier-mini-desc">15+ practical projects • Python & OOP • NumPy • Pandas workflows • Mentorship</div>
+                        </div>
+                    </div>
+
+                    <!-- Syllabus Topics Preview -->
+                    <div class="course-preview-topics-box">
+                        <span class="course-preview-lbl">WHAT YOU WILL LEARN:</span>
+                        <ul class="course-topic-list">
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
                                 <span>
-                                    <strong>Phase 1 — Python Foundations:</strong>Python syntax, variables, data types, operators, control flow, functions, and essential programming fundamentals.
-                                    </span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
+                                    <strong>Phase 1 — Python Foundations:</strong>Write your first programs using variables, data types, operators, conditions, loops, and functions.
+                                </span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
                                 <span>
                                     <strong>Phase 2 — Data Structures & Memory:</strong>
-                                        Lists, tuples, dictionaries, sets, memory references, mutability, object behavior, and efficient data handling.
-                                    </span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
+                                    Choose between lists, tuples, dictionaries, and sets. Understand references and mutability so you can handle data with fewer surprises.
+                                </span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
                                 <span>
                                     <strong>
-                                        Phase 3 — Functions & Advanced Python:</strong>
-                                        Scopes, closures, decorators, lambda functions, iterators, generators, and reusable programming patterns.
-                                    </span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
+                                        Phase 3 — Functions & Advanced Python:
+                                    </strong>
+                                    Use scopes, closures, decorators, lambdas, iterators, and generators to build reusable Python code.
+                                </span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
                                 <span>
                                     <strong>
-                                        Phase 4 — Object-Oriented Python:</strong>
-                                        Classes, objects, inheritance, encapsulation, polymorphism, composition, dunder methods, and reusable software components.
-                                    </span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                                <span><strong>Phase 5 — NumPy & Pandas:</strong> NumPy arrays, vectorization, broadcasting, matrix operations, Pandas DataFrames, data cleaning, filtering, grouping, merging, transformation, and time-series analysis.</span>
-                </li>
-              </ul>
+                                        Phase 4 — Object-Oriented Python:
+                                    </strong>
+                                    Organise programs with classes and objects. Explore inheritance, encapsulation, polymorphism, composition, and special methods.
+                                </span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 5 — NumPy & Pandas:</strong> Use arrays, vectorisation, broadcasting, and matrix operations. Clean, filter, group, merge, and analyse data with Pandas, including time-series data.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="course-card-action-row">
+                    <button class="btn-course-action-main" onclick="event.stopPropagation(); openCourseView('python');">
+                        <span>▶ Start Learning Python for Free</span>
+                        <span>→</span>
+                    </button>
+                    <button class="btn-course-action-secondary" onclick="event.stopPropagation(); openCompareTracksView();">
+                        <span>💎 Compare Theory & Practical Learning</span>
+                        <span>↗</span>
+                    </button>
+                </div>
             </div>
-          </div>
 
-          <div class="course-card-action-row">
-            <button class="btn-course-action-main" onclick="event.stopPropagation(); openCourseView('python');">
-              <span>▶ Start Free Theory Lectures</span>
-              <span>→</span>
-            </button>
-            <button class="btn-course-action-secondary" onclick="event.stopPropagation(); openCompareTracksView();">
-              <span>💎 Compare Free vs Paid Labs</span>
-              <span>↗</span>
-            </button>
-          </div>
-        </div>
+            <!-- COURSE 2: MACHINE LEARNING (100 DAYS BASED ON CAMPUSX) -->
+            <div class="course-detail-card" style="--course-color: #2563eb; --course-bg: rgba(37, 99, 235, 0.15); --course-glow: rgba(37, 99, 235, 0.4);" onclick="openCourseView('ml')">
+                <div class="course-card-top">
+                    <div class="course-icon-badge">🤖</div>
+                    <div class="course-card-badge-row">
+                        <span class="badge-free-tag">Free Theory </span>
+                        <span class="badge-paid-tag">Paid Practical (Tk10000)</span>
+                    </div>
+                    <h3 class="course-card-title">Machine Learning: From Ideas to Models</h3>
+                    <p class="course-card-desc">
+                        Learn with the <a href="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH" target="_blank" style="color: #38bdf8; text-decoration: underline;" onclick="event.stopPropagation()">CampusX 100 Days of Machine Learning playlist</a>. Build your understanding of how models learn, prepare useful features, compare approaches, and connect the theory to your own project.
+                    </p>
 
-        <!-- COURSE 2: MACHINE LEARNING (100 DAYS BASED ON CAMPUSX) -->
-        <div class="course-detail-card" style="--course-color: #2563eb; --course-bg: rgba(37, 99, 235, 0.15); --course-glow: rgba(37, 99, 235, 0.4);" onclick="openCourseView('ml')">
-          <div class="course-card-top">
-            <div class="course-icon-badge">🤖</div>
-            <div class="course-card-badge-row">
-                        <span class="badge-free-tag">Free Theory (100% Open) </span>
-              <span class="badge-paid-tag">Paid Practical (Tk10000)</span>
-            </div>
-            <h3 class="course-card-title">Machine Learning Masterclass</h3>
-            <p class="course-card-desc">
-              Taught using the acclaimed <a href="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH" target="_blank" style="color: #38bdf8; text-decoration: underline;" onclick="event.stopPropagation()">CampusX 100 Days of Machine Learning Playlist</a>. Master loss functions, gradient descent calculus, feature engineering, ensembles, and cloud deployment.
-            </p>
-
-            <!-- Dual-Track Mini Breakdown -->
-            <div class="course-tiers-mini-split">
-              <div class="tier-mini-box">
-                <span class="tier-mini-label free">Theory (Free)</span>
-                <div class="tier-mini-price">$0</div>
-                <div class="tier-mini-desc">100-Day CampusX Video Series, Loss Calculus, Gradient Descent, Trees, Ensembles</div>
-              </div>
-              <div class="tier-mini-box">
-                <span class="tier-mini-label paid">Practical (Paid)</span>
+                    <!-- Dual-Track Mini Breakdown -->
+                    <div class="course-tiers-mini-split">
+                        <div class="tier-mini-box">
+                            <span class="tier-mini-label free">Theory (Free)</span>
+                            <div class="tier-mini-price">$0</div>
+                            <div class="tier-mini-desc">CampusX videos, loss functions, gradient descent, trees, and ensembles</div>
+                        </div>
+                        <div class="tier-mini-box">
+                            <span class="tier-mini-label paid">Practical (Paid)</span>
                             <div class="tier-mini-price">Tk10000</div>
-                <div class="tier-mini-desc">200 Domain Capstone Projects, Datasets, FastAPI, Docker, and Deployment</div>
-              </div>
+                            <div class="tier-mini-desc">Explore the 200-project catalog, work with data, and practise API and deployment workflows</div>
+                        </div>
+                    </div>
+
+                    <!-- Syllabus Topics Preview from CampusX -->
+                    <div class="course-preview-topics-box">
+                        <span class="course-preview-lbl">YOUR MACHINE LEARNING LEARNING PATH:</span>
+                        <ul class="course-topic-list">
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Start Here:</strong> Understand what ML can do, the main types of learning, and how to frame a useful project question.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Explore Your Data:</strong> Read CSV, JSON, and SQL data. Explore data collection, statistics, and exploratory analysis.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Prepare Your Features:</strong> Learn scaling, one-hot encoding, column transformations, and repeatable preprocessing pipelines.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Improve Data Quality:</strong> Handle missing values, investigate outliers, and create useful features without leaking test information.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Build Your First Models:</strong> Explore dimensionality reduction, linear and polynomial regression, and the role of gradient descent.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Compare Approaches:</strong> Try logistic regression, decision trees, random forests, and boosting methods such as AdaBoost and XGBoost.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Bring It Together:</strong> Explore clustering and anomaly detection, then connect your model to a reproducible project workflow.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="course-card-action-row">
+                    <button class="btn-course-action-main" onclick="event.stopPropagation(); openCourseView('ml');">
+                        <span>▶ Watch the Free CampusX Playlist</span>
+                        <span>→</span>
+                    </button>
+                    <button class="btn-course-action-secondary" onclick="event.stopPropagation(); openCompareTracksView();">
+                        <span>💎 Compare Theory & Practical Learning</span>
+                        <span>↗</span>
+                    </button>
+                </div>
             </div>
 
-            <!-- Syllabus Topics Preview from CampusX -->
-            <div class="course-preview-topics-box">
-              <span class="course-preview-lbl">CAMPUSX 100 DAYS SYLLABUS COVERAGE:</span>
-              <ul class="course-topic-list">
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 1–14:</strong> What is ML, Types of ML, Problem Framing & Lifecycle</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 15–23:</strong> Ingestion (CSV/JSON/SQL), Web Scraping, Stats & Automated EDA</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 24–34:</strong> Feature Scaling, One-Hot Encoding, ColumnTransformer & Pipelines</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 35–46:</strong> Missing Values (KNN/MICE), Outliers (Z-score/IQR), Feature Splitting</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 47–57:</strong> PCA Dimensionality Reduction, Linear/Polynomial Regression, GD Math</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 58–75:</strong> Logistic Classification, Decision Trees, Random Forest, AdaBoost, XGBoost</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Days 76–100:</strong> K-Means, DBSCAN, Anomaly Detection & End-to-End Dockerized MLOps</span>
-                </li>
-              </ul>
+            <!-- COURSE 3: DEEP LEARNING -->
+            <div class="course-detail-card" style="--course-color: #8b5cf6; --course-bg: rgba(139, 92, 246, 0.15); --course-glow: rgba(139, 92, 246, 0.4);" onclick="openCourseView('dl')">
+                <div class="course-card-top">
+                    <div class="course-icon-badge">🧠</div>
+                    <div class="course-card-badge-row">
+                        <span class="badge-free-tag">Free Theory</span>
+                        <span class="badge-paid-tag">Paid Practical ($59)</span>
+                    </div>
+                    <h3 class="course-card-title">Deep Learning, Computer Vision & Transformers</h3>
+                    <p class="course-card-desc">
+                        Learn how neural networks recognise patterns in images, sequences, and other data. Understand the training process, explore CNNs and LSTMs, and build towards attention models and transformers.
+                    </p>
+
+                    <!-- Dual-Track Mini Breakdown -->
+                    <div class="course-tiers-mini-split">
+                        <div class="tier-mini-box">
+                            <span class="tier-mini-label free">Theory (Free)</span>
+                            <div class="tier-mini-price">$0</div>
+                            <div class="tier-mini-desc">Perceptrons, backpropagation, convolutions, attention, and the maths behind them</div>
+                        </div>
+                        <div class="tier-mini-box">
+                            <span class="tier-mini-label paid">Practical (Paid)</span>
+                            <div class="tier-mini-price">$59</div>
+                            <div class="tier-mini-desc">PyTorch notebooks • Vision models • Transformers • Model optimisation and serving</div>
+                        </div>
+                    </div>
+
+                    <!-- Syllabus Topics Preview -->
+                    <div class="course-preview-topics-box">
+                        <span class="course-preview-lbl">YOUR DEEP LEARNING LEARNING PATH:</span>
+                        <ul class="course-topic-list">
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 1:</strong> Start with perceptrons, multilayer networks, and computational graphs.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 2:</strong> Understand forward passes, backpropagation, loss functions, and optimisers such as AdamW.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 3:</strong> Explore convolutions, ResNet, transfer learning, and object detection with YOLO.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 4:</strong> Work with sequence data using RNNs, LSTMs, and GRUs, including sensor time series.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 5:</strong> Learn self-attention, multi-head attention, transformers, and Vision Transformers.</span>
+                            </li>
+                            <li class="course-topic-item">
+                                <span class="course-topic-bullet"></span>
+                                <span><strong>Phase 6:</strong> Explore TensorRT, reduced-precision models, and the practical limits of deployment on devices such as Jetson.</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="course-card-action-row">
+                    <button class="btn-course-action-main" onclick="event.stopPropagation(); openCourseView('dl');">
+                        <span>▶ Start Learning Deep Learning for Free</span>
+                        <span>→</span>
+                    </button>
+                    <button class="btn-course-action-secondary" onclick="event.stopPropagation(); openCompareTracksView();">
+                        <span>💎 Compare Theory & Practical Learning</span>
+                        <span>↗</span>
+                    </button>
+                </div>
             </div>
-          </div>
-
-          <div class="course-card-action-row">
-            <button class="btn-course-action-main" onclick="event.stopPropagation(); openCourseView('ml');">
-              <span>▶ Watch 100 Days Theory on YouTube</span>
-              <span>→</span>
-            </button>
-            <button class="btn-course-action-secondary" onclick="event.stopPropagation(); openCompareTracksView();">
-              <span>💎 Compare Free vs Paid Labs</span>
-              <span>↗</span>
-            </button>
-          </div>
         </div>
 
-        <!-- COURSE 3: DEEP LEARNING -->
-        <div class="course-detail-card" style="--course-color: #8b5cf6; --course-bg: rgba(139, 92, 246, 0.15); --course-glow: rgba(139, 92, 246, 0.4);" onclick="openCourseView('dl')">
-          <div class="course-card-top">
-            <div class="course-icon-badge">🧠</div>
-            <div class="course-card-badge-row">
-              <span class="badge-free-tag">Free Theory (100% Open)</span>
-              <span class="badge-paid-tag">Paid Practical ($59)</span>
-            </div>
-            <h3 class="course-card-title">Deep Learning, Computer Vision & Transformers</h3>
-            <p class="course-card-desc">
-              Understand backpropagation calculus from scratch, implement Convolutional Networks (CNNs), train LSTMs on sensor time-series, and fine-tune Vision Transformers (ViT) and Large Language Models.
-            </p>
-
-            <!-- Dual-Track Mini Breakdown -->
-            <div class="course-tiers-mini-split">
-              <div class="tier-mini-box">
-                <span class="tier-mini-label free">Theory (Free)</span>
-                <div class="tier-mini-price">$0</div>
-                <div class="tier-mini-desc">Perceptrons, Backprop Math, CNN Convolutions, Attention Calculus, Proofs</div>
-              </div>
-              <div class="tier-mini-box">
-                <span class="tier-mini-label paid">Practical (Paid)</span>
-                <div class="tier-mini-price">$59</div>
-                <div class="tier-mini-desc">PyTorch GPU Notebooks, YOLOv8/v11 Vision, ViTs, TensorRT Quantization, Triton</div>
-              </div>
+        <!-- INTERACTIVE SECTION: WHY EACH COURSE IS ESSENTIAL FOR YOUR DEPARTMENT -->
+        <div class="essential-matrix-section">
+            <div class="portal-heading-wrap" style="margin-bottom: 28px;">
+                <span class="section-tag-badge">CONNECT AI TO WHAT YOU STUDY</span>
+                <h2>What Could You Build in Your Field?</h2>
+                <p>AI becomes easier to understand when the problem is familiar. Choose your discipline to see how Python, Machine Learning, and Deep Learning can support the questions you already care about.</p>
             </div>
 
-            <!-- Syllabus Topics Preview -->
-            <div class="course-preview-topics-box">
-              <span class="course-preview-lbl">ADVANCED NEURAL SYLLABUS HIGHLIGHTS:</span>
-              <ul class="course-topic-list">
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Phase 1:</strong> Perceptrons to Multilayer Perceptrons & Computational Graphs</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Phase 2:</strong> Forward & Backpropagation Calculus, AdamW & Loss Landscapes</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Phase 3:</strong> Computer Vision: Convolutions, ResNet, Transfer Learning & YOLOv11</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Phase 4:</strong> Recurrent Networks (RNNs), LSTMs & GRUs for Sensor Time-Series</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Phase 5:</strong> Self-Attention, Multi-Head Transformers, Vision Transformers (ViT)</span>
-                </li>
-                <li class="course-topic-item">
-                  <span class="course-topic-bullet"></span>
-                  <span><strong>Phase 6:</strong> TensorRT Model Quantization (FP16/INT8) & Edge Deployment (Jetson)</span>
-                </li>
-              </ul>
+            <!-- Department Switcher Tabs -->
+            <div class="essential-dept-tabs" id="essentialDeptTabs">
+                <button class="dept-tab-btn active" onclick="switchEssentialDept('eee')">
+                    <span>⚡</span> <span>Electrical (EEE)</span>
+                </button>
+                <button class="dept-tab-btn" onclick="switchEssentialDept('ece')">
+                    <span>📡</span> <span>Telecom & ECE</span>
+                </button>
+                <button class="dept-tab-btn" onclick="switchEssentialDept('civil')">
+                    <span>🏗️</span> <span>Civil Engineering</span>
+                </button>
+                <button class="dept-tab-btn" onclick="switchEssentialDept('agriculture')">
+                    <span>🌱</span> <span>Smart Agriculture</span>
+                </button>
+                <button class="dept-tab-btn" onclick="switchEssentialDept('business')">
+                    <span>📈</span> <span>FinTech & Business</span>
+                </button>
+                <button class="dept-tab-btn" onclick="switchEssentialDept('healthcare')">
+                    <span>🏥</span> <span>Healthcare & Bio</span>
+                </button>
+                <button class="dept-tab-btn" onclick="switchEssentialDept('cs')">
+                    <span>💻</span> <span>Computer Science</span>
+                </button>
             </div>
-          </div>
 
-          <div class="course-card-action-row">
-            <button class="btn-course-action-main" onclick="event.stopPropagation(); openCourseView('dl');">
-              <span>▶ Start Free Deep Learning Theory</span>
-              <span>→</span>
-            </button>
-            <button class="btn-course-action-secondary" onclick="event.stopPropagation(); openCompareTracksView();">
-              <span>💎 Compare Free vs Paid Labs</span>
-              <span>↗</span>
-            </button>
-          </div>
-        </div>
-      </div>
+            <!-- Dynamic 3-Card Grid for Selected Department -->
+            <div class="essential-cards-grid" id="essentialCardsGrid">
+                <!-- Populated dynamically via JS -->
+            </div>
 
-      <!-- INTERACTIVE SECTION: WHY EACH COURSE IS ESSENTIAL FOR YOUR DEPARTMENT -->
-      <div class="essential-matrix-section">
-        <div class="portal-heading-wrap" style="margin-bottom: 28px;">
-          <span class="section-tag-badge">INTERDISCIPLINARY RELEVANCE & IMPORTANCE</span>
-          <h2>Why Each Course Is Essential For Your Discipline</h2>
-          <p>AI is not just for computer science. Discover why Python, Machine Learning, and Deep Learning are mission-critical for your exact engineering and physical domain:</p>
+            <div style="display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 20px; flex-wrap: wrap;">
+                <button class="btn-primary-blue" id="btnExploreSelectedDeptBlueprints" onclick="openSubjectProjects('eee')">
+                    <span>⚡ Explore 20 Electrical Engineering Projects</span>
+                    <span>→</span>
+                </button>
+                <button class="btn-secondary-glass" onclick="openDisciplineRelevanceView('eee')">
+                    <span>🧭 Discover AI Applications in Your Field</span>
+                    <span>→</span>
+                </button>
+            </div>
         </div>
 
-        <!-- Department Switcher Tabs -->
-        <div class="essential-dept-tabs" id="essentialDeptTabs">
-          <button class="dept-tab-btn active" onclick="switchEssentialDept('eee')">
-            <span>⚡</span> <span>Electrical (EEE)</span>
-          </button>
-          <button class="dept-tab-btn" onclick="switchEssentialDept('ece')">
-            <span>📡</span> <span>Telecom & ECE</span>
-          </button>
-          <button class="dept-tab-btn" onclick="switchEssentialDept('civil')">
-            <span>🏗️</span> <span>Civil Engineering</span>
-          </button>
-          <button class="dept-tab-btn" onclick="switchEssentialDept('agriculture')">
-            <span>🌱</span> <span>Smart Agriculture</span>
-          </button>
-          <button class="dept-tab-btn" onclick="switchEssentialDept('business')">
-            <span>📈</span> <span>FinTech & Business</span>
-          </button>
-          <button class="dept-tab-btn" onclick="switchEssentialDept('healthcare')">
-            <span>🏥</span> <span>Healthcare & Bio</span>
-          </button>
-          <button class="dept-tab-btn" onclick="switchEssentialDept('cs')">
-            <span>💻</span> <span>Computer Science</span>
-          </button>
+        <!-- SECTION: 10 DISCIPLINES / 200 PROJECTS -->
+        <div class="portal-heading-wrap" id="subjectsSectionHeading">
+            <span class="section-tag-badge">200 PROJECTS. A PLACE TO START.</span>
+            <h2>Find a Capstone That Interests You</h2>
+            <p>Choose a discipline to explore its 20 capstone projects. Open a project to understand the problem, see the suggested methods and tools, and follow the steps towards a prototype you can test and explain.</p>
         </div>
 
-        <!-- Dynamic 3-Card Grid for Selected Department -->
-        <div class="essential-cards-grid" id="essentialCardsGrid">
-          <!-- Populated dynamically via JS -->
+        <!-- 6 Subject Cards with Generous 48px Gaps & Dynamic Hover -->
+        <div class="subjects-grid-expanded" id="subjectsGrid">
+            <!-- Injected dynamically via JS with mouse tracking and clickable project preview items -->
         </div>
-
-        <div style="display: flex; align-items: center; justify-content: center; gap: 16px; margin-top: 20px; flex-wrap: wrap;">
-          <button class="btn-primary-blue" id="btnExploreSelectedDeptBlueprints" onclick="openSubjectProjects('eee')">
-            <span>⚡ Explore 20 Dedicated Electrical (EEE) Projects</span>
-            <span>→</span>
-          </button>
-          <button class="btn-secondary-glass" onclick="openDisciplineRelevanceView('eee')">
-            <span>🧭 Open Dedicated Discipline Deep-Dive Page</span>
-            <span>→</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- SECTION: 10 DISCIPLINES / 200 PROJECTS -->
-      <div class="portal-heading-wrap" id="subjectsSectionHeading">
-        <span class="section-tag-badge">200 REAL-WORLD CAPSTONE PROJECTS</span>
-        <h2>Explore Department AI Blueprints</h2>
-        <p>Select any discipline below to access its 10 production-ready AI solutions complete with mathematical challenge formulations, neural architectures, curated datasets, and reproducible code.</p>
-      </div>
-
-      <!-- 6 Subject Cards with Generous 48px Gaps & Dynamic Hover -->
-      <div class="subjects-grid-expanded" id="subjectsGrid">
-        <!-- Injected dynamically via JS with mouse tracking and clickable project preview items -->
-      </div>
     </div>
 
     <!-- ====================================================================
          VIEW 2: SUBJECT 10 PROJECTS VIEW (GENEROUS 42PX GAPS & HOVER)
          ==================================================================== -->
     <div class="view-stage container" id="viewDepartment">
-      <div class="breadcrumbs-shell">
-        <div class="breadcrumbs-trail">
-          <span class="crumb-clickable" onclick="navigateToSubjects()">
-            <span>🏛️</span> <span>All Disciplines</span>
-          </span>
-          <span>/</span>
-          <span class="crumb-active" id="breadcrumbDeptName">Department Name</span>
+        <div class="breadcrumbs-shell">
+            <div class="breadcrumbs-trail">
+                <span class="crumb-clickable" onclick="navigateToSubjects()">
+                    <span>🏛️</span> <span>All Disciplines</span>
+                </span>
+                <span>/</span>
+                <span class="crumb-active" id="breadcrumbDeptName">Your Discipline</span>
+            </div>
+
+            <button class="btn-back-stage" onclick="navigateToSubjects()">
+                <span>←</span> <span>Back to All Disciplines</span>
+            </button>
         </div>
 
-        <button class="btn-back-stage" onclick="navigateToSubjects()">
-          <span>←</span> <span>Back to All Disciplines</span>
-        </button>
-      </div>
-
-      <!-- Department Hero Banner -->
-      <div class="department-banner" id="deptBanner">
-        <div class="dept-banner-content">
-          <div class="dept-banner-top">
-            <div class="dept-banner-icon" id="deptBannerIcon">⚡</div>
-            <div>
-              <h1 class="dept-banner-title" id="deptBannerTitle">Department Name</h1>
-              <span class="dept-metric-tag" style="margin-top: 6px; display: inline-block;">20 Dedicated AI Capstone Projects</span>
+        <!-- Department Hero Banner -->
+        <div class="department-banner" id="deptBanner">
+            <div class="dept-banner-content">
+                <div class="dept-banner-top">
+                    <div class="dept-banner-icon" id="deptBannerIcon">⚡</div>
+                    <div>
+                        <h1 class="dept-banner-title" id="deptBannerTitle">Your Discipline</h1>
+                        <span class="dept-metric-tag" style="margin-top: 6px; display: inline-block;">20 Capstone Projects to Explore</span>
+                    </div>
+                </div>
+                <p class="dept-banner-desc" id="deptBannerDesc">
+                    Choose a project that connects your subject knowledge with a practical AI challenge.
+                </p>
+                <div class="dept-banner-metrics">
+                    <div class="dept-metric-tag">
+                        <span>🎯</span> <span>20 Capstone Projects</span>
+                    </div>
+                    <div class="dept-metric-tag">
+                        <span>📊</span> <span>Explore Relevant Datasets</span>
+                    </div>
+                    <div class="dept-metric-tag">
+                        <span>💻</span> <span>Build and Test with Python</span>
+                    </div>
+                </div>
             </div>
-          </div>
-          <p class="dept-banner-desc" id="deptBannerDesc">
-            Department description and industrial AI transformation details.
-          </p>
-          <div class="dept-banner-metrics">
-            <div class="dept-metric-tag">
-              <span>🎯</span> <span>10 Production Solutions</span>
-            </div>
-            <div class="dept-metric-tag">
-              <span>📊</span> <span>Curated Enterprise Datasets</span>
-            </div>
-            <div class="dept-metric-tag">
-              <span>💻</span> <span>Reproducible PyTorch / Scikit-Learn Code</span>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Search & Filter within Department -->
-      <div class="dept-filter-bar">
-        <div class="search-input-wrap">
-          <span class="search-icon-symbol">🔍</span>
-          <input type="text" id="projectSearchInput" placeholder="Search these 20 AI projects by keyword or tech...">
         </div>
 
-        <div style="font-size: 0.9rem; color: var(--text-dim);">
-          Showing <span id="projectCountDisplay" style="color: var(--blue-accent); font-weight: 700;">20</span> of <span id="projectTotalDisplay">20</span> Blueprints
-        </div>
-      </div>
+        <!-- Search & Filter within Department -->
+        <div class="dept-filter-bar">
+            <div class="search-input-wrap">
+                <span class="search-icon-symbol">🔍</span>
+                <input type="text" id="projectSearchInput" placeholder="Search these 20 AI projects by keyword or tech...">
+            </div>
 
-      <!-- 10 Project Cards Grid with Generous 42px Gaps -->
-      <div class="ten-projects-grid-expanded" id="tenProjectsGrid">
-        <!-- Injected dynamically via JS with complete hover animations -->
-      </div>
+            <div style="font-size: 0.9rem; color: var(--text-dim);">
+                Showing <span id="projectCountDisplay" style="color: var(--blue-accent); font-weight: 700;">20</span> of <span id="projectTotalDisplay">20</span> Projects
+            </div>
+        </div>
+
+        <!-- 10 Project Cards Grid with Generous 42px Gaps -->
+        <div class="ten-projects-grid-expanded" id="tenProjectsGrid">
+            <!-- Injected dynamically via JS with complete hover animations -->
+        </div>
     </div>
 
     <!-- ====================================================================
@@ -623,647 +625,651 @@
          ==================================================================== -->
     <!-- Project-only content: this entire view is unavailable until a project card is opened. -->
     <div class="view-stage container" id="viewProjectDetail" hidden style="display:none !important;">
-      <div class="breadcrumbs-shell">
-        <div class="breadcrumbs-trail">
-          <span class="crumb-clickable" onclick="navigateToSubjects()">
-            <span>🏛️</span> <span>All Disciplines</span>
-          </span>
-          <span>/</span>
-          <span class="crumb-clickable" id="breadcrumbDetailDept" onclick="backToCurrentDept()">
-            Department
-          </span>
-          <span>/</span>
-          <span class="crumb-active" id="breadcrumbDetailProj">Project Name</span>
+        <div class="breadcrumbs-shell">
+            <div class="breadcrumbs-trail">
+                <span class="crumb-clickable" onclick="navigateToSubjects()">
+                    <span>🏛️</span> <span>All Disciplines</span>
+                </span>
+                <span>/</span>
+                <span class="crumb-clickable" id="breadcrumbDetailDept" onclick="backToCurrentDept()">
+                    Department
+                </span>
+                <span>/</span>
+                <span class="crumb-active" id="breadcrumbDetailProj">Your Project</span>
+            </div>
+
+            <button class="btn-back-stage" onclick="backToCurrentDept()">
+                <span>←</span> <span>Back to 20 Projects</span>
+            </button>
         </div>
 
-        <button class="btn-back-stage" onclick="backToCurrentDept()">
-          <span>←</span> <span>Back to 20 Projects</span>
-        </button>
-      </div>
+        <!-- Detailed Cockpit Banner -->
+        <div class="project-detail-hero" id="cockpitHeroBanner">
+            <div class="project-hero-copy">
+                <div class="cockpit-header-top">
+                    <span class="cockpit-dept-badge" id="cockpitDeptBadge">Department</span>
+                    <span class="cockpit-index-badge" id="cockpitIndexBadge">PROJECT #01</span>
+                </div>
+                <h1 class="cockpit-title-main" id="cockpitTitle">Your Selected Capstone Project</h1>
+                <p class="cockpit-desc-lead" id="cockpitSummary">
+                    Understand the problem, build a working prototype, and learn how to evaluate and explain your results.
+                </p>
+                <div class="hero-project-actions">
+                    <button type="button" class="hero-project-primary" onclick="document.getElementById('projectWorkflowTitle').scrollIntoView({behavior: 'smooth'})">Explore the project guide <span>→</span></button>
+                    <button type="button" class="hero-project-secondary" onclick="document.getElementById('projectSubmissionGuide').scrollIntoView({behavior: 'smooth'})">See what to submit</button>
+                </div>
+                <div class="tech-stack-tag-row" id="cockpitTechStack">
+                    <!-- Tech stack tags -->
+                </div>
+            </div>
 
-      <!-- Detailed Cockpit Banner -->
-      <div class="project-detail-hero" id="cockpitHeroBanner">
-        <div class="project-hero-copy">
-          <div class="cockpit-header-top">
-            <span class="cockpit-dept-badge" id="cockpitDeptBadge">Department</span>
-            <span class="cockpit-index-badge" id="cockpitIndexBadge">PROJECT #01</span>
-          </div>
-          <h1 class="cockpit-title-main" id="cockpitTitle">Project Title Here</h1>
-          <p class="cockpit-desc-lead" id="cockpitSummary">
-            High-level operational overview of the production AI blueprint.
-          </p>
-          <div class="hero-project-actions">
-            <button type="button" class="hero-project-primary" onclick="document.getElementById('projectWorkflowTitle').scrollIntoView({behavior: 'smooth'})">Read the project guide <span>→</span></button>
-            <button type="button" class="hero-project-secondary" onclick="document.getElementById('projectSubmissionGuide').scrollIntoView({behavior: 'smooth'})">See what to submit</button>
-          </div>
-          <div class="tech-stack-tag-row" id="cockpitTechStack">
-            <!-- Tech stack tags -->
-          </div>
+            <aside class="project-hero-visual" aria-label="Illustrative project evaluation graphic">
+                <div class="hero-visual-head"><strong id="heroVisualTitle">Illustrative project response</strong><span>Concept preview</span></div>
+                <p id="heroVisualCaption">Illustrative comparison only. Use your own experiments to measure actual performance.</p>
+                <svg viewBox="0 0 360 190" role="img" aria-label="Illustrative line chart comparing a baseline and AI model">
+                    <line x1="35" y1="26" x2="342" y2="26" class="hero-grid-line" />
+                    <line x1="35" y1="67" x2="342" y2="67" class="hero-grid-line" />
+                    <line x1="35" y1="108" x2="342" y2="108" class="hero-grid-line" />
+                    <line x1="35" y1="149" x2="342" y2="149" class="hero-grid-line" />
+                    <path d="M38 117 C78 117, 93 72, 128 53 S178 108, 220 93 S284 86, 338 86" class="hero-model-line" />
+                    <path d="M38 91 L338 91" class="hero-baseline-line" />
+                    <circle cx="338" cy="86" r="4" class="hero-end-point" />
+                    <text x="35" y="177">0</text>
+                    <text x="181" y="177">validation</text>
+                    <text x="317" y="177">result</text>
+                </svg>
+                <div class="hero-visual-legend"><span><i class="legend-ai"></i>AI model</span><span><i class="legend-baseline"></i>Baseline</span></div>
+            </aside>
         </div>
 
-        <aside class="project-hero-visual" aria-label="Illustrative project evaluation graphic">
-          <div class="hero-visual-head"><strong id="heroVisualTitle">Illustrative project response</strong><span>Concept preview</span></div>
-          <p id="heroVisualCaption">Expected baseline and AI-model evaluation pattern.</p>
-          <svg viewBox="0 0 360 190" role="img" aria-label="Illustrative line chart comparing a baseline and AI model">
-            <line x1="35" y1="26" x2="342" y2="26" class="hero-grid-line" /><line x1="35" y1="67" x2="342" y2="67" class="hero-grid-line" /><line x1="35" y1="108" x2="342" y2="108" class="hero-grid-line" /><line x1="35" y1="149" x2="342" y2="149" class="hero-grid-line" />
-            <path d="M38 117 C78 117, 93 72, 128 53 S178 108, 220 93 S284 86, 338 86" class="hero-model-line" />
-            <path d="M38 91 L338 91" class="hero-baseline-line" />
-            <circle cx="338" cy="86" r="4" class="hero-end-point" />
-            <text x="35" y="177">0</text><text x="181" y="177">validation</text><text x="317" y="177">result</text>
-          </svg>
-          <div class="hero-visual-legend"><span><i class="legend-ai"></i>AI model</span><span><i class="legend-baseline"></i>Baseline</span></div>
-        </aside>
-      </div>
+        <!-- All project content below the hero is kept in this shared responsive shell. -->
+        <div class="project-page-content">
+            <!-- Reusable quick facts: values are replaced for every selected project. -->
+            <dl class="project-facts" aria-label="Project details">
+                <div><dt>Level</dt><dd id="projectFactLevel">Intermediate</dd></div>
+                <div><dt>Duration</dt><dd id="projectFactDuration">8–10 weeks</dd></div>
+                <div><dt>Format</dt><dd id="projectFactFormat">Guided capstone</dd></div>
+                <div><dt>Workspace</dt><dd id="projectFactWorkspace">LMS + Google Colab</dd></div>
+            </dl>
 
-      <!-- All project content below the hero is kept in this shared responsive shell. -->
-      <div class="project-page-content">
-      <!-- Reusable quick facts: values are replaced for every selected project. -->
-      <dl class="project-facts" aria-label="Project details">
-        <div><dt>Level</dt><dd id="projectFactLevel">Intermediate</dd></div>
-        <div><dt>Duration</dt><dd id="projectFactDuration">8–10 weeks</dd></div>
-        <div><dt>Format</dt><dd id="projectFactFormat">Guided capstone</dd></div>
-        <div><dt>Workspace</dt><dd id="projectFactWorkspace">LMS + Google Colab</dd></div>
-      </dl>
+            <!-- This shared brief is filled from the selected project's own catalog record. -->
+            <section class="project-brief-grid" aria-label="Selected project brief">
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">🛠️</div><div class="bp-card-title">What you will build</div></div>
+                    <div class="bp-content-body" id="projectBuildOutcome">A working prototype that addresses the selected project's question.</div>
+                </article>
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">🧠</div><div class="bp-card-title">Core AI method</div></div>
+                    <div class="bp-content-body" id="projectAiMethod">A method chosen to suit your problem, data, and available resources.</div>
+                </article>
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">🎯</div><div class="bp-card-title">How success is measured</div></div>
+                    <div class="bp-content-body" id="projectSuccessMeasure">A clear comparison with a baseline using suitable test data and metrics.</div>
+                </article>
+            </section>
 
-      <!-- This shared brief is filled from the selected project's own catalog record. -->
-      <section class="project-brief-grid" aria-label="Selected project brief">
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">🛠️</div><div class="bp-card-title">What you will build</div></div>
-          <div class="bp-content-body" id="projectBuildOutcome">A project-specific prototype.</div>
-        </article>
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">🧠</div><div class="bp-card-title">Core AI method</div></div>
-          <div class="bp-content-body" id="projectAiMethod">A project-specific AI method.</div>
-        </article>
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">🎯</div><div class="bp-card-title">How success is measured</div></div>
-          <div class="bp-content-body" id="projectSuccessMeasure">A project-specific evaluation plan.</div>
-        </article>
-      </section>
+            <div class="project-audience-grid">
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">🎓</div><div class="bp-card-title">Who this project is for</div></div>
+                    <div class="bp-content-body" id="projectAudience"></div>
+                </article>
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">💡</div><div class="bp-card-title">What you should know</div></div>
+                    <div class="bp-content-body" id="projectPrerequisites"></div>
+                </article>
+            </div>
 
-      <div class="project-audience-grid">
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">🎓</div><div class="bp-card-title">Who this project is for</div></div>
-          <div class="bp-content-body" id="projectAudience"></div>
-        </article>
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">💡</div><div class="bp-card-title">What you should know</div></div>
-          <div class="bp-content-body" id="projectPrerequisites"></div>
-        </article>
-      </div>
+            <!-- 4-Card Cockpit Grid with Dedicated Hover Transitions -->
+            <div class="cockpit-grid-4">
+                <!-- Challenge -->
+                <div class="blueprint-card">
+                    <div class="bp-card-head">
+                        <div class="bp-icon-chip">🎯</div>
+                        <div class="bp-card-title">The Problem You Will Explore</div>
+                    </div>
+                    <div class="bp-content-body" id="cockpitChallenge">
+                        Identify who faces this problem, why it matters, and what your project will try to improve.
+                    </div>
+                </div>
 
-      <!-- 4-Card Cockpit Grid with Dedicated Hover Transitions -->
-      <div class="cockpit-grid-4">
-        <!-- Challenge -->
-        <div class="blueprint-card">
-          <div class="bp-card-head">
-            <div class="bp-icon-chip">🎯</div>
-            <div class="bp-card-title">The Domain Challenge</div>
-          </div>
-          <div class="bp-content-body" id="cockpitChallenge">
-            Challenge description.
-          </div>
+                <!-- AI Architecture -->
+                <div class="blueprint-card">
+                    <div class="bp-card-head">
+                        <div class="bp-icon-chip">🧠</div>
+                        <div class="bp-card-title">How the AI Approach Works</div>
+                    </div>
+                    <div class="bp-content-body" id="cockpitArchitecture">
+                        Understand how the selected model uses your inputs to produce an output you can evaluate.
+                    </div>
+                </div>
+
+                <!-- 4-Step Data Pipeline -->
+                <div class="blueprint-card" style="grid-column: 1 / -1;">
+                    <div class="bp-card-head">
+                        <div class="bp-icon-chip">⚡</div>
+                        <div class="bp-card-title">From Your Data to Your Results</div>
+                    </div>
+                    <div class="pipeline-grid-steps" id="cockpitPipelineSteps">
+                        <!-- 4 Pipeline stages with hover effects -->
+                    </div>
+                </div>
+
+                <!-- Performance Metrics -->
+                <div class="blueprint-card">
+                    <div class="bp-card-head">
+                        <div class="bp-icon-chip">📈</div>
+                        <div class="bp-card-title">How to Test Your Results</div>
+                    </div>
+                    <div class="bp-content-body" id="cockpitMetrics">
+                        Choose metrics that answer your project question and compare your model with a suitable baseline.
+                    </div>
+                </div>
+
+                <!-- Datasets & Training Specs -->
+                <div class="blueprint-card">
+                    <div class="bp-card-head">
+                        <div class="bp-icon-chip">🗄️</div>
+                        <div class="bp-card-title">Data & Computing Resources</div>
+                    </div>
+                    <div class="bp-content-body" id="cockpitDatasets">
+                        Check the dataset, its permitted uses, and the computing resources your experiments will need.
+                    </div>
+                </div>
+            </div>
+
+            <section class="project-workflow-section" aria-labelledby="projectWorkflowTitle">
+                <div class="project-section-heading">
+                    <span class="section-tag-badge">YOUR STEP-BY-STEP PROJECT GUIDE</span>
+                    <h2 id="projectWorkflowTitle">From Your First Question to a Tested Prototype</h2>
+                    <p>Select a stage to understand what to do, why it matters, and what evidence to save.</p>
+                </div>
+                <div class="project-workflow-steps" id="projectWorkflowSteps"></div>
+                <div class="project-workflow-detail" id="projectWorkflowDetail" aria-live="polite"></div>
+            </section>
+
+            <section class="project-learning-grid" aria-label="Project deliverables and environment">
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">✅</div><div class="bp-card-title">Final deliverables</div></div>
+                    <ul class="project-deliverables" id="projectDeliverables"></ul>
+                </article>
+                <article class="blueprint-card">
+                    <div class="bp-card-head"><div class="bp-icon-chip">🧰</div><div class="bp-card-title">Your Data, Tools & Workspace</div></div>
+                    <div class="bp-content-body"><strong>Dataset:</strong> <span id="projectDataset"></span></div>
+                    <div class="bp-content-body project-hardware"><strong>Environment:</strong> <span id="projectHardware"></span></div>
+                </article>
+            </section>
+
+            <!-- Shared assessment and submission area, modeled after the supplied capstone guide. -->
+            <section class="project-submission-guide" id="projectSubmissionGuide" aria-labelledby="projectRoadmapTitle">
+                <div class="guide-heading"><span class="section-tag-badge">PLAN YOUR PROJECT, ONE WEEK AT A TIME</span><h2 id="projectRoadmapTitle">Make Steady Progress from Idea to Demo</h2><p>Use this six-week outline as a starting point. Agree a realistic schedule with your instructor based on your project and experience.</p></div>
+                <div class="project-roadmap" id="projectRoadmap"></div>
+                <h3 class="guide-subheading">How your work could be assessed</h3>
+                <div class="rubric-scroll"><table class="project-rubric"><thead><tr><th>Assessment area</th><th>Evidence to submit</th><th>Suggested weight</th></tr></thead><tbody id="projectRubric"></tbody></table></div>
+                <div class="submission-columns">
+                    <article class="guide-workflow-card"><h3>Your project journey</h3><p>Take one step at a time, from a clear question to a demonstration you can explain.</p><ol id="projectGuideSteps"></ol></article>
+                    <article class="guide-deliverables-card"><h3>What to hand in</h3><p>Show what you built, how you tested it, and how someone else can reproduce your work.</p><ul id="projectSubmissionItems"></ul><div class="guide-tool-tags" id="projectToolTags"></div></article>
+                </div>
+                <div class="submission-columns guide-bottom-row">
+                    <article class="guide-support-card"><h3>Make the Most of Your Guidance</h3><p><strong>Bring your questions to your instructor.</strong><br />Use check-ins to agree your scope, review data permissions and relevant safety needs, discuss obstacles, and confirm what your assessment requires.</p></article>
+                    <article class="guide-submit-card"><h3>What to submit</h3><dl><dt>Notebook</dt><dd>Code that runs, with the settings needed to reproduce it</dd><dt>Evidence</dt><dd>Plots, test metrics, and a comparison with your baseline</dd><dt>Report</dt><dd>Your approach, findings, limitations, and sources</dd><dt>Demo</dt><dd>A recording or interactive demonstration of your project</dd></dl></article>
+                </div>
+                <div class="guide-faq"><h3>A Few Questions Before You Start</h3><div><details><summary>Do I need coding experience?</summary><p>Basic Python will help. Start with the free Python lessons if you need a refresher, then aim to get a simple baseline working first.</p></details><details><summary>Where will I write code?</summary><p>Use Google Colab or a local setup suited to your project. Record your packages and settings so someone else can run your work.</p></details><details><summary>How will the project be evaluated?</summary><p>Agree the requirements with your instructor. Show your test results, baseline comparison, error analysis, and enough detail to reproduce the work.</p></details><details><summary>Is my prototype ready for real-world use?</summary><p>A successful capstone is a starting point. Real-world use needs further testing, appropriate permissions, and review by people with relevant domain expertise.</p></details></div></div>
+            </section>
+
+            <!-- Copyable Production Code Container -->
+            <div class="code-blueprint-container">
+                <div class="code-top-toolbar">
+                    <div class="code-lang-label">
+                        <span>🐍</span> <span>Explore the Project Code</span>
+                    </div>
+                    <button class="btn-copy-code" id="btnCopyCode" onclick="copyCodeSnippet()">
+                        <span>📋 Copy Code</span>
+                    </button>
+                </div>
+                <pre class="code-block"><code id="cockpitCodeBlock"># Code snippet</code></pre>
+            </div>
+
+            <!-- Real-World Business & Industrial Impact Banner -->
+            <div class="business-impact-banner">
+                <div class="biz-impact-head">
+                    <span>💼</span> <span>Where This Project Could Make a Difference</span>
+                </div>
+                <div class="biz-impact-text" id="cockpitImpact">
+                    Explain who could benefit, what your results support, and what would need further work before practical use.
+                </div>
+            </div>
+
+            <!-- Bottom Project Navigation Bar -->
+            <div class="cockpit-bottom-nav">
+                <button class="btn-nav-proj" id="btnPrevProject" onclick="navigateProjectOffset(-1)">
+                    <span>←</span> <span>Previous Project</span>
+                </button>
+                <button class="btn-nav-proj" onclick="backToCurrentDept()">
+                    <span>🏛️</span> <span>All 20 Projects in This Discipline</span>
+                </button>
+                <button class="btn-nav-proj" id="btnNextProject" onclick="navigateProjectOffset(1)">
+                    <span>Next Project</span> <span>→</span>
+                </button>
+            </div>
         </div>
-
-        <!-- AI Architecture -->
-        <div class="blueprint-card">
-          <div class="bp-card-head">
-            <div class="bp-icon-chip">🧠</div>
-            <div class="bp-card-title">AI & ML Architecture</div>
-          </div>
-          <div class="bp-content-body" id="cockpitArchitecture">
-            Architecture details.
-          </div>
-        </div>
-
-        <!-- 4-Step Data Pipeline -->
-        <div class="blueprint-card" style="grid-column: 1 / -1;">
-          <div class="bp-card-head">
-            <div class="bp-icon-chip">⚡</div>
-            <div class="bp-card-title">End-to-End Data & Model Pipeline</div>
-          </div>
-          <div class="pipeline-grid-steps" id="cockpitPipelineSteps">
-            <!-- 4 Pipeline stages with hover effects -->
-          </div>
-        </div>
-
-        <!-- Performance Metrics -->
-        <div class="blueprint-card">
-          <div class="bp-card-head">
-            <div class="bp-icon-chip">📈</div>
-            <div class="bp-card-title">Benchmark & Validation Metrics</div>
-          </div>
-          <div class="bp-content-body" id="cockpitMetrics">
-            Metrics details.
-          </div>
-        </div>
-
-        <!-- Datasets & Training Specs -->
-        <div class="blueprint-card">
-          <div class="bp-card-head">
-            <div class="bp-icon-chip">🗄️</div>
-            <div class="bp-card-title">Training Datasets & Hardware</div>
-          </div>
-          <div class="bp-content-body" id="cockpitDatasets">
-            Datasets and training configuration.
-          </div>
-        </div>
-      </div>
-
-      <section class="project-workflow-section" aria-labelledby="projectWorkflowTitle">
-        <div class="project-section-heading">
-          <span class="section-tag-badge">ONE REUSABLE PROJECT WORKFLOW</span>
-          <h2 id="projectWorkflowTitle">From problem definition to tested AI system</h2>
-          <p>Select a stage to see the work and expected output for this project.</p>
-        </div>
-        <div class="project-workflow-steps" id="projectWorkflowSteps"></div>
-        <div class="project-workflow-detail" id="projectWorkflowDetail" aria-live="polite"></div>
-      </section>
-
-      <section class="project-learning-grid" aria-label="Project deliverables and environment">
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">✅</div><div class="bp-card-title">Final deliverables</div></div>
-          <ul class="project-deliverables" id="projectDeliverables"></ul>
-        </article>
-        <article class="blueprint-card">
-          <div class="bp-card-head"><div class="bp-icon-chip">🧰</div><div class="bp-card-title">Data, tools & deployment</div></div>
-          <div class="bp-content-body"><strong>Dataset:</strong> <span id="projectDataset"></span></div>
-          <div class="bp-content-body project-hardware"><strong>Environment:</strong> <span id="projectHardware"></span></div>
-        </article>
-      </section>
-
-      <!-- Shared assessment and submission area, modeled after the supplied capstone guide. -->
-      <section class="project-submission-guide" id="projectSubmissionGuide" aria-labelledby="projectRoadmapTitle">
-        <div class="guide-heading"><span class="section-tag-badge">SUGGESTED STUDENT ROADMAP</span><h2 id="projectRoadmapTitle">Plan, evaluate, and present your project</h2><p>This is a suggested six-week structure. Adjust it with your instructor to fit the selected project.</p></div>
-        <div class="project-roadmap" id="projectRoadmap"></div>
-        <h3 class="guide-subheading">Example assessment rubric</h3>
-        <div class="rubric-scroll"><table class="project-rubric"><thead><tr><th>Assessment area</th><th>Evidence to submit</th><th>Suggested weight</th></tr></thead><tbody id="projectRubric"></tbody></table></div>
-        <div class="submission-columns">
-          <article class="guide-workflow-card"><h3>Project workflow</h3><p>Move from a defined problem to a defensible demonstration.</p><ol id="projectGuideSteps"></ol></article>
-          <article class="guide-deliverables-card"><h3>Final deliverables</h3><p>Submit enough evidence for another student to understand and reproduce your work.</p><ul id="projectSubmissionItems"></ul><div class="guide-tool-tags" id="projectToolTags"></div></article>
-        </div>
-        <div class="submission-columns guide-bottom-row">
-          <article class="guide-support-card"><h3>Guidance for the project</h3><p><strong>Work with your course instructor.</strong><br />Use supervision sessions to confirm scope, safety considerations, data permissions, and assessment requirements before training.</p></article>
-          <article class="guide-submit-card"><h3>What to submit</h3><dl><dt>Notebook</dt><dd>Runnable code and saved configuration</dd><dt>Evidence</dt><dd>Plots, metrics, and baseline comparison</dd><dt>Report</dt><dd>Method, results, limitations, and references</dd><dt>Demo</dt><dd>Recorded or interactive project demonstration</dd></dl></article>
-        </div>
-        <div class="guide-faq"><h3>Questions about the project?</h3><div><details><summary>Do I need coding experience?</summary><p>Basic Python is recommended; use the baseline as the first working milestone.</p></details><details><summary>Where will I write code?</summary><p>Use Google Colab or your documented local development environment.</p></details><details><summary>How will the project be evaluated?</summary><p>Use the rubric, held-out results, error analysis, and a reproducible demonstration.</p></details><details><summary>Can this run in a real setting?</summary><p>Only after validation, safety review, and appropriate domain supervision.</p></details></div></div>
-      </section>
-
-      <!-- Copyable Production Code Container -->
-      <div class="code-blueprint-container">
-        <div class="code-top-toolbar">
-          <div class="code-lang-label">
-            <span>🐍</span> <span>Python / PyTorch Production Architecture</span>
-          </div>
-          <button class="btn-copy-code" id="btnCopyCode" onclick="copyCodeSnippet()">
-            <span>📋 Copy Code</span>
-          </button>
-        </div>
-        <pre class="code-block"><code id="cockpitCodeBlock"># Code snippet</code></pre>
-      </div>
-
-      <!-- Real-World Business & Industrial Impact Banner -->
-      <div class="business-impact-banner">
-        <div class="biz-impact-head">
-          <span>💼</span> <span>Industrial & Operational Impact</span>
-        </div>
-        <div class="biz-impact-text" id="cockpitImpact">
-          Impact details here.
-        </div>
-      </div>
-
-      <!-- Bottom Project Navigation Bar -->
-      <div class="cockpit-bottom-nav">
-        <button class="btn-nav-proj" id="btnPrevProject" onclick="navigateProjectOffset(-1)">
-          <span>←</span> <span>Previous Blueprint</span>
-        </button>
-        <button class="btn-nav-proj" onclick="backToCurrentDept()">
-          <span>🏛️</span> <span>All 20 Blueprints for this Department</span>
-        </button>
-        <button class="btn-nav-proj" id="btnNextProject" onclick="navigateProjectOffset(1)">
-          <span>Next Blueprint</span> <span>→</span>
-        </button>
-      </div>
-      </div>
     </div>
 
     <!-- ====================================================================
          VIEW 4: FLAGSHIP COURSES HUB (FREE THEORY + PAID PRACTICAL)
          ==================================================================== -->
     <div class="view-stage container" id="viewCourse">
-      <div class="breadcrumbs-shell">
-        <div class="breadcrumbs-trail">
-          <span class="crumb-clickable" onclick="navigateToSubjects()">
-            <span>🏛️</span> <span>All Disciplines</span>
-          </span>
-          <span>/</span>
-          <span class="crumb-active" id="courseBreadcrumbTitle">🎓 Flagship Courses</span>
+        <div class="breadcrumbs-shell">
+            <div class="breadcrumbs-trail">
+                <span class="crumb-clickable" onclick="navigateToSubjects()">
+                    <span>🏛️</span> <span>All Disciplines</span>
+                </span>
+                <span>/</span>
+                <span class="crumb-active" id="courseBreadcrumbTitle">🎓 Learning Tracks</span>
+            </div>
+
+            <button class="btn-back-stage" onclick="navigateToSubjects()">
+                <span>←</span> <span>Back to Home</span>
+            </button>
         </div>
 
-        <button class="btn-back-stage" onclick="navigateToSubjects()">
-          <span>←</span> <span>Back to Home</span>
-        </button>
-      </div>
-
-      <!-- Course Track Switcher Tabs (Python, ML, Deep Learning) -->
-      <div class="course-top-track-nav">
-        <button class="track-tab-btn" id="tabCoursePYTHON" onclick="switchCourseTrack('python')">
-          <span>🐍</span> <span>Python for AI</span>
-        </button>
-        <button class="track-tab-btn active" id="tabCourseML" onclick="switchCourseTrack('ml')">
-          <span>🤖</span> <span>Machine Learning (100 Days)</span>
-        </button>
-        <button class="track-tab-btn" id="tabCourseDL" onclick="switchCourseTrack('dl')">
-          <span>🧠</span> <span>Deep Learning & Transformers</span>
-        </button>
-      </div>
-
-      <!-- Course Hero Banner -->
-      <div class="course-hero-banner" id="courseBanner">
-        <div class="course-badge-cluster">
-          <span class="badge-course-type" id="courseHeroBadge">✦ Flagship Interdisciplinary Masterclass ✦</span>
-          <span class="badge-free-tag">Free Theory Track</span>
-          <span class="badge-paid-tag">Paid Practical Track</span>
+        <!-- Course Track Switcher Tabs (Python, ML, Deep Learning) -->
+        <div class="course-top-track-nav">
+            <button class="track-tab-btn" id="tabCoursePYTHON" onclick="switchCourseTrack('python')">
+                <span>🐍</span> <span>Python for AI</span>
+            </button>
+            <button class="track-tab-btn active" id="tabCourseML" onclick="switchCourseTrack('ml')">
+                <span>🤖</span> <span>Machine Learning (100 Days)</span>
+            </button>
+            <button class="track-tab-btn" id="tabCourseDL" onclick="switchCourseTrack('dl')">
+                <span>🧠</span> <span>Deep Learning & Transformers</span>
+            </button>
         </div>
 
-        <h1 class="course-title-main" id="courseMainTitle">
-          Machine Learning Masterclass: <br>
-          <span class="gradient-text-blue">Foundations to Interdisciplinary Production</span>
-        </h1>
+        <!-- Course Hero Banner -->
+        <div class="course-hero-banner" id="courseBanner">
+            <div class="course-badge-cluster">
+                <span class="badge-course-type" id="courseHeroBadge">✦ BUILD THE FOUNDATIONS FOR YOUR NEXT PROJECT ✦</span>
+                <span class="badge-free-tag">Free Theory Track</span>
+                <span class="badge-paid-tag">Paid Practical Track</span>
+            </div>
 
-        <p class="course-desc-lead" id="courseMainDesc">
-          Designed specifically for engineers, scientists, and analysts across all disciplines. Learn the theoretical foundations of Machine Learning completely <strong>free</strong> through our structured 100-day curriculum, and unlock domain-specific <strong>paid practical labs</strong> featuring real datasets, PyTorch implementations, and production deployment pipelines.
-        </p>
+            <h1 class="course-title-main" id="courseMainTitle">
+                Learn Machine Learning: <br>
+                <span class="gradient-text-blue">Connect the Concepts to Your Field</span>
+            </h1>
 
-        <!-- Dedicated action buttons that open the appropriate pages -->
-        <div class="course-action-cluster">
-          <button class="btn-course-primary" onclick="scrollToVideoLecture()">
-            <span>▶️ Watch Free Theory Lectures</span>
-          </button>
-          <button class="btn-course-secondary" onclick="openCompareTracksView()">
-            <span>💎 Compare Free vs. Paid Tracks Page</span>
-          </button>
-          <button class="btn-course-secondary" onclick="openDisciplineRelevanceView('eee')">
-            <span>🧭 How It Relates to Your Discipline Page</span>
-          </button>
-        </div>
-      </div>
+            <p class="course-desc-lead" id="courseMainDesc">
+                Whether you study engineering, science, business, health, or education, start with the foundations. Explore Machine Learning theory for <strong>free</strong> using the curated CampusX video series, then consider <strong>paid practical labs</strong> to practise working with data, building models, and explaining your results.
+            </p>
 
-      <!-- VIDEO LECTURE & PLAYLIST SECTION -->
-      <div class="course-video-section" id="videoLectureSection">
-        <div class="section-head-clean" style="margin-bottom: 20px;">
-          <h3 style="font-size: 1.8rem; font-weight: 800; color: var(--text-primary); margin-bottom: 8px;">Free Theory Video Lectures</h3>
-          <p style="color: var(--text-secondary);">Watch the complete structured syllabus covering core algorithms, math, and intuition:</p>
-        </div>
-
-        <div class="video-player-container">
-          <iframe 
-            id="courseVideoIframe" src="https://www.youtube.com/embed/ZftI2fEz0Fw?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH" 
-            title="What is Machine Learning? | 100 Days of Machine Learning" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen>
-          </iframe>
+            <!-- Dedicated action buttons that open the appropriate pages -->
+            <div class="course-action-cluster">
+                <button class="btn-course-primary" onclick="scrollToVideoLecture()">
+                    <span>▶️ Start the Free Theory Lessons</span>
+                </button>
+                <button class="btn-course-secondary" onclick="openCompareTracksView()">
+                    <span>💎 Compare Learning Tracks</span>
+                </button>
+                <button class="btn-course-secondary" onclick="openDisciplineRelevanceView('eee')">
+                    <span>🧭 Explore AI in Your Discipline</span>
+                </button>
+            </div>
         </div>
 
-        <div class="playlist-action-bar">
-          <div class="playlist-meta-info">
-            <div class="playlist-title-link" id="playlistTitleText">100 Days of Machine Learning by CampusX</div>
-            <div class="playlist-sub-text" id="playlistSubText">Full Series: What is ML · Life Cycle · Mathematics · Regression · Trees · Ensembles · MLOps</div>
-          </div>
-          <a href="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH" target="_blank" class="btn-open-youtube-playlist" id="btnOpenPlaylistExternal">
-            <span>📺 Open Full Playlist on YouTube</span>
-            <span>↗</span>
-          </a>
-        </div>
+        <!-- VIDEO LECTURE & PLAYLIST SECTION -->
+        <div class="course-video-section" id="videoLectureSection">
+            <div class="section-head-clean" style="margin-bottom: 20px;">
+                <h3 style="font-size: 1.8rem; font-weight: 800; color: var(--text-primary); margin-bottom: 8px;">Free Theory Video Lectures</h3>
+                <p style="color: var(--text-secondary);">Build your understanding of the algorithms, maths, and ideas behind your project:</p>
+            </div>
 
-        <!-- Curriculum Modules List -->
-        <div style="margin-top: 36px;">
-          <h4 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 16px; color: var(--text-primary);">Course Syllabus Modules:</h4>
-          
-          <div class="modules-grid-list" id="courseModulesList">
-            <!-- Populated dynamically via JS -->
-          </div>
+            <div class="video-player-container">
+                <iframe id="courseVideoIframe" src="https://www.youtube.com/embed/ZftI2fEz0Fw?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH"
+                        title="What is Machine Learning? | 100 Days of Machine Learning"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </div>
+
+            <div class="playlist-action-bar">
+                <div class="playlist-meta-info">
+                    <div class="playlist-title-link" id="playlistTitleText">100 Days of Machine Learning by CampusX</div>
+                    <div class="playlist-sub-text" id="playlistSubText">Explore the series: ML basics · Problem framing · Mathematics · Regression · Trees · Ensembles</div>
+                </div>
+                <a href="https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH" target="_blank" class="btn-open-youtube-playlist" id="btnOpenPlaylistExternal">
+                    <span>📺 Open Full Playlist on YouTube</span>
+                    <span>↗</span>
+                </a>
+            </div>
+
+            <!-- Curriculum Modules List -->
+            <div style="margin-top: 36px;">
+                <h4 style="font-size: 1.3rem; font-weight: 800; margin-bottom: 16px; color: var(--text-primary);">Explore the Course Topics:</h4>
+
+                <div class="modules-grid-list" id="courseModulesList">
+                    <!-- Populated dynamically via JS -->
+                </div>
+            </div>
         </div>
-      </div>
     </div>
 
     <!-- ====================================================================
          VIEW 5: DEDICATED "COMPARE FREE VS PAID TRACKS" PAGE
          ==================================================================== -->
     <div class="view-stage container" id="viewCompareTracks">
-      <div class="breadcrumbs-shell">
-        <div class="breadcrumbs-trail">
-          <span class="crumb-clickable" onclick="navigateToSubjects()">
-            <span>🏛️</span> <span>All Disciplines</span>
-          </span>
-          <span>/</span>
-          <span class="crumb-clickable" onclick="openCourseView('ml')">
-            <span>🎓</span> <span>Flagship Courses</span>
-          </span>
-          <span>/</span>
-          <span class="crumb-active">💎 Compare Free vs Paid Tracks</span>
-        </div>
-
-        <button class="btn-back-stage" onclick="navigateToSubjects()">
-          <span>←</span> <span>Back to Home</span>
-        </button>
-      </div>
-
-      <!-- Hero Banner for Compare Page -->
-      <div class="course-hero-banner">
-        <div class="course-badge-cluster">
-          <span class="badge-course-type">✦ Transparent Two-Tier Education Model ✦</span>
-          <span class="badge-free-tag">100% Free Theory</span>
-          <span class="badge-paid-tag">Paid Production Labs</span>
-        </div>
-
-        <h1 class="course-title-main">
-          Course Track Comparison: <br>
-          <span class="gradient-text-blue">Free Theory vs. Industrial Practical Labs</span>
-        </h1>
-
-        <p class="course-desc-lead">
-          AI Connectra operates on a clear dual-pillar mission: <strong>Democratize foundational mathematical theory for everyone completely free</strong>, and deliver <strong>production-grade engineering blueprints, raw industrial datasets, and 1-on-1 code reviews</strong> for professionals, researchers, and enterprise teams.
-        </p>
-
-        <div class="course-action-cluster">
-          <button class="btn-course-primary" onclick="openCourseView('ml')">
-            <span>▶️ Start 100 Days of Free Theory</span>
-          </button>
-          <button class="btn-course-secondary" onclick="openDisciplineRelevanceView('eee')">
-            <span>🧭 Explore Department Relevance</span>
-          </button>
-        </div>
-      </div>
-
-      <!-- DETAILED FEATURE COMPARISON TABLE -->
-      <div class="portal-heading-wrap" style="text-align: left; margin-bottom: 24px;">
-        <span class="section-tag-badge">FEATURE-BY-FEATURE BREAKDOWN</span>
-        <h2>Comprehensive Track Matrix</h2>
-        <p>Compare exactly what is included in our open-access theory versus our applied industrial practical labs:</p>
-      </div>
-
-      <div class="table-compare-wrap">
-        <table class="table-compare">
-          <thead>
-            <tr>
-              <th style="width: 40%;">Curriculum Component / Resource</th>
-              <th style="width: 30%;">Free Theory Track ($0)</th>
-              <th style="width: 30%;">Paid Practical Track ($29 - $59)</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><strong>Algorithmic Concepts & Intuition</strong></td>
-              <td><span class="check-yes">✓ Full Access</span> (All foundational principles)</td>
-              <td><span class="check-yes">✓ Full Access</span> (Integrated with codebase)</td>
-            </tr>
-            <tr>
-              <td><strong>Mathematical Proofs & Loss Calculus</strong></td>
-              <td><span class="check-yes">✓ Full Access</span> (Step-by-step derivations)</td>
-              <td><span class="check-yes">✓ Full Access</span> (With vectorized code checks)</td>
-            </tr>
-            <tr>
-              <td><strong>CampusX 100 Days of Machine Learning Playlist</strong></td>
-              <td><span class="check-yes">✓ Full Free Access</span> (100% open on YouTube)</td>
-              <td><span class="check-yes">✓ Full Free Access</span> (With guided lab schedule)</td>
-            </tr>
-            <tr>
-              <td><strong>Open Lecture Notes & Mindmaps</strong></td>
-              <td><span class="check-yes">✓ Included</span> (Downloadable markdown/PDF)</td>
-              <td><span class="check-yes">✓ Included</span> + Architecture Schematics</td>
-            </tr>
-            <tr>
-              <td><strong>200 Domain Capstone Projects</strong></td>
-              <td><span class="check-no">Preview summaries only</span></td>
-              <td><span class="check-yes">✓ Full Production Code Repositories</span></td>
-            </tr>
-            <tr>
-              <td><strong>Curated Real-World Datasets</strong></td>
-              <td><span class="check-no">Toy synthetic datasets</span></td>
-              <td><span class="check-yes">✓ Enterprise Sensor Telemetry & Clinical Data</span></td>
-            </tr>
-            <tr>
-              <td><strong>GPU-Accelerated Notebooks (Colab / Kaggle)</strong></td>
-              <td><span class="check-no">Self-configured environment</span></td>
-              <td><span class="check-yes">✓ Pre-configured 1-Click GPU Notebooks</span></td>
-            </tr>
-            <tr>
-              <td><strong>Production Microservices (FastAPI & Docker)</strong></td>
-              <td><span class="check-no">Not included</span></td>
-              <td><span class="check-yes">✓ Production Dockerfiles & API endpoints</span></td>
-            </tr>
-            <tr>
-              <td><strong>NVIDIA TensorRT & Edge AI Acceleration</strong></td>
-              <td><span class="check-no">Not included</span></td>
-              <td><span class="check-yes">✓ FP16 / INT8 Quantization Scripts</span></td>
-            </tr>
-            <tr>
-              <td><strong>1-on-1 Code Review & Mentorship</strong></td>
-              <td><span class="check-no">Community discussions</span></td>
-              <td><span class="check-yes">✓ Dedicated Instructor Architecture Review</span></td>
-            </tr>
-            <tr>
-              <td><strong>Verified Industry Credential & Portfolio Cert</strong></td>
-              <td><span class="check-no">Not included</span></td>
-              <td><span class="check-yes">✓ Shareable Digital Blockchain Credential</span></td>
-            </tr>
-            <tr>
-              <td><strong>Private Discord & Priority Engineering Support</strong></td>
-              <td><span class="check-no">Public comments only</span></td>
-              <td><span class="check-yes">✓ Direct 24/7 Channel Access to Instructors</span></td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <!-- PRICING & ENROLLMENT TIERS CARDS -->
-      <div class="portal-heading-wrap" style="text-align: center; margin-bottom: 32px;">
-        <span class="section-tag-badge">TRANSPARENT PRICING</span>
-        <h2>Choose Your Practical Track</h2>
-        <p>One-time enrollment with lifetime updates. No recurring subscriptions or hidden fees.</p>
-      </div>
-
-      <div class="pricing-cards-grid">
-        <!-- Python Practical -->
-        <div class="pricing-card">
-          <div>
-            <div style="font-size: 2.2rem; margin-bottom: 12px;">🐍</div>
-            <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--text-primary);">Python for AI Practical</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
-              Master software architecture, OOP design, NumPy vectorization, and build 15 real-world data scraping and automation projects.
-            </p>
-            <div class="tier-price-row">
-              <span class="tier-price-val">$29</span>
-              <span class="tier-price-sub">One-time payment</span>
+        <div class="breadcrumbs-shell">
+            <div class="breadcrumbs-trail">
+                <span class="crumb-clickable" onclick="navigateToSubjects()">
+                    <span>🏛️</span> <span>All Disciplines</span>
+                </span>
+                <span>/</span>
+                <span class="crumb-clickable" onclick="openCourseView('ml')">
+                    <span>🎓</span> <span>Learning Tracks</span>
+                </span>
+                <span>/</span>
+                <span class="crumb-active">💎 Compare Learning Tracks</span>
             </div>
-            <ul class="tier-feature-list" style="margin-top: 20px;">
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>15 Industrial Python Repositories</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Automated PyTest & CI/CD Pipelines</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Async Web Scraping with Playwright</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>High-Performance Numba & Profiling</span></li>
-            </ul>
-          </div>
-          <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px;" onclick="alert('Enrolled in Python for AI Practical Labs! Welcome to AI Connectra Pro.')">
-            <span>Enroll in Python Labs ($29)</span>
-          </button>
+
+            <button class="btn-back-stage" onclick="navigateToSubjects()">
+                <span>←</span> <span>Back to Home</span>
+            </button>
         </div>
 
-        <!-- 100 Days ML Practical -->
-        <div class="pricing-card">
-          <div>
-            <div style="font-size: 2.2rem; margin-bottom: 12px;">🤖</div>
-            <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--text-primary);">100 Days of ML Practical</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
-              Apply the 100-Day CampusX syllabus across 200 capstone projects in 10 academic disciplines.
-            </p>
-            <div class="tier-price-row">
-              <span class="tier-price-val">$49</span>
-              <span class="tier-price-sub">One-time payment</span>
+        <!-- Hero Banner for Compare Page -->
+        <div class="course-hero-banner">
+            <div class="course-badge-cluster">
+                <span class="badge-course-type">✦ CHOOSE THE SUPPORT THAT FITS YOUR GOALS ✦</span>
+                <span class="badge-free-tag">100% Free Theory</span>
+                <span class="badge-paid-tag">Paid Practical Labs</span>
             </div>
-            <ul class="tier-feature-list" style="margin-top: 20px;">
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>200 Complete Capstone Projects</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Real-World Curated Sensor Datasets</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>FastAPI & Docker Deployment Files</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Capstone Portfolio Code Review</span></li>
-            </ul>
-          </div>
-          <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px;" onclick="alert('Enrolled in 100 Days of ML Practical Labs! Welcome to AI Connectra Pro.')">
-            <span>Enroll in ML Labs ($49)</span>
-          </button>
+
+            <h1 class="course-title-main">
+                Find Your Learning Path: <br>
+                <span class="gradient-text-blue">Free Theory or Hands-On Practical Learning</span>
+            </h1>
+
+            <p class="course-desc-lead">
+                Start where you are. AI Connectra brings together <strong>free AI theory to help you understand the foundations</strong>and <strong>paid practical learning to help you apply them</strong> . Compare the options below and choose what fits your experience, project goals, and budget.
+            </p>
+
+            <div class="course-action-cluster">
+                <button class="btn-course-primary" onclick="openCourseView('ml')">
+                    <span>▶️ Explore the Free ML Lessons</span>
+                </button>
+                <button class="btn-course-secondary" onclick="openDisciplineRelevanceView('eee')">
+                    <span>🧭 Find Applications in Your Field</span>
+                </button>
+            </div>
         </div>
 
-        <!-- Deep Learning Practical -->
-        <div class="pricing-card">
-          <div>
-            <div style="font-size: 2.2rem; margin-bottom: 12px;">🧠</div>
-            <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--text-primary);">Deep Learning Practical</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
-              Train state-of-the-art vision and transformer models: YOLOv11 real-time vision, 3D U-Net segmentation, and TensorRT serving.
-            </p>
-            <div class="tier-price-row">
-              <span class="tier-price-val">$59</span>
-              <span class="tier-price-sub">One-time payment</span>
-            </div>
-            <ul class="tier-feature-list" style="margin-top: 20px;">
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>PyTorch Lightning GPU Notebooks</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Custom YOLOv11 & ViT Implementations</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>TensorRT INT8 GPU Quantization</span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Edge Deployment on NVIDIA Jetson</span></li>
-            </ul>
-          </div>
-          <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px;" onclick="alert('Enrolled in Deep Learning GPU Labs! Welcome to AI Connectra Pro.')">
-            <span>Enroll in DL Labs ($59)</span>
-          </button>
+        <!-- DETAILED FEATURE COMPARISON TABLE -->
+        <div class="portal-heading-wrap" style="text-align: left; margin-bottom: 24px;">
+            <span class="section-tag-badge">SEE WHAT EACH TRACK OFFERS</span>
+            <h2>Compare Your Learning Options</h2>
+            <p>See how the theory and practical tracks support different stages of your learning. Check the selected course details before enrolling.</p>
         </div>
 
-        <!-- ALL ACCESS BUNDLE -->
-        <div class="pricing-card featured">
-          <div class="pricing-card-badge">★ Best Value (Save $38) ★</div>
-          <div>
-            <div style="font-size: 2.2rem; margin-bottom: 12px;">🎓</div>
-            <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--blue-accent);">All-Access Master Academy</h3>
-            <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
-              Complete access to all three practical masterclasses: Python + 100 Days of ML + Deep Learning, plus all 200 capstone projects.
-            </p>
-            <div class="tier-price-row">
-              <span class="tier-price-val" style="color: var(--blue-accent);">$99</span>
-              <span class="tier-price-sub" style="text-decoration: line-through; color: var(--text-dim); margin-left: 6px;">$137</span>
-              <span class="tier-price-sub" style="color: #34d399; font-weight: 700; margin-left: 6px;">Lifetime Access</span>
-            </div>
-            <ul class="tier-feature-list" style="margin-top: 20px;">
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>All 75+ Production Repositories</strong></span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>Priority 1-on-1 Code Reviews</strong></span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>All 200 Capstone Projects & Datasets</strong></span></li>
-              <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>Master AI Connectra Industry Credential</strong></span></li>
-            </ul>
-          </div>
-          <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px; background: linear-gradient(135deg, #0284c7, #38bdf8); color: #041026;" onclick="alert('Welcome to the All-Access Master Academy Bundle! Complete access granted.')">
-            <span>Get All-Access Bundle ($99)</span>
-          </button>
+        <div class="table-compare-wrap">
+            <table class="table-compare">
+                <thead>
+                    <tr>
+                        <th style="width: 40%;">Learning Resource or Support</th>
+                        <th style="width: 30%;">Free Theory Track ($0)</th>
+                        <th style="width: 30%;">Paid Practical Track (Course-Specific Fee)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Core AI Ideas & Intuition</strong></td>
+                        <td><span class="check-yes">✓ Full Access</span> (Understand the foundations)</td>
+                        <td><span class="check-yes">✓ Full Access</span> (Connect ideas to working code)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>The Maths Behind Model Training</strong></td>
+                        <td><span class="check-yes">✓ Full Access</span> (Work through the reasoning)</td>
+                        <td><span class="check-yes">✓ Full Access</span> (Explore the maths through code)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>CampusX 100 Days of Machine Learning Playlist</strong></td>
+                        <td><span class="check-yes">✓ Full Free Access</span> (100% open on YouTube)</td>
+                        <td><span class="check-yes">✓ Full Free Access</span> (Alongside practical learning)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Lecture Notes & Topic Maps</strong></td>
+                        <td><span class="check-yes">✓ Included</span> (Downloadable Markdown/PDF)</td>
+                        <td><span class="check-yes">✓ Included</span> + Model and workflow diagrams</td>
+                    </tr>
+                    <tr>
+                        <td><strong>200 Capstone Projects Across 10 Disciplines</strong></td>
+                        <td><span class="check-no">Explore project summaries</span></td>
+                        <td><span class="check-yes">Project code for practical learning</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Practice with Project Data</strong></td>
+                        <td><span class="check-no">Examples and synthetic practice data</span></td>
+                        <td><span class="check-yes">Domain datasets for project work</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Notebooks for Colab / Kaggle</strong></td>
+                        <td><span class="check-no">Set up your own workspace</span></td>
+                        <td><span class="check-yes">Prepared notebooks; GPU access depends on the platform</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>APIs & Containers (FastAPI & Docker)</strong></td>
+                        <td><span class="check-no">Not included</span></td>
+                        <td><span class="check-yes">API and container examples for relevant projects</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Model Optimisation & Edge Deployment</strong></td>
+                        <td><span class="check-no">Not included</span></td>
+                        <td><span class="check-yes">Reduced-precision examples for relevant projects</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Code Review & Learning Guidance</strong></td>
+                        <td><span class="check-no">Community discussions</span></td>
+                        <td><span class="check-yes">Review support as specified in your course</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Course Completion & Portfolio Evidence</strong></td>
+                        <td><span class="check-no">Not included</span></td>
+                        <td><span class="check-yes">Check the selected course's completion requirements</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Learner Community & Course Support</strong></td>
+                        <td><span class="check-no">Public comments only</span></td>
+                        <td><span class="check-yes">Course support; check available channels and response times</span></td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-      </div>
+
+        <!-- PRICING & ENROLLMENT TIERS CARDS -->
+        <div class="portal-heading-wrap" style="text-align: center; margin-bottom: 32px;">
+            <span class="section-tag-badge">EXPLORE YOUR PRACTICAL OPTIONS</span>
+            <h2>Choose a Track That Fits Your Next Step</h2>
+            <p>Compare the practical tracks below. Confirm the applicable fee, currency, access period, and included support before enrolling.</p>
+        </div>
+
+        <div class="pricing-cards-grid">
+            <!-- Python Practical -->
+            <div class="pricing-card">
+                <div>
+                    <div style="font-size: 2.2rem; margin-bottom: 12px;">🐍</div>
+                    <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--text-primary);">Python for AI: Practical Track</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
+                        Put Python to work through 15 practical projects. Organise your code, work with NumPy and Pandas, and practise data collection and automation.
+                    </p>
+                    <div class="tier-price-row">
+                        <span class="tier-price-val">$29</span>
+                        <span class="tier-price-sub">One-time payment</span>
+                    </div>
+                    <ul class="tier-feature-list" style="margin-top: 20px;">
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>15 practical Python project repositories</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Testing with PyTest and CI/CD workflows</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Asynchronous data collection with Playwright</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Explore profiling and performance with Numba</span></li>
+                    </ul>
+                </div>
+                <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px;" onclick="alert('Enrolled in Python for AI Practical Labs! Welcome to AI Connectra Pro.')">
+                    <span>Choose Python Practical ($29)</span>
+                </button>
+            </div>
+
+            <!-- 100 Days ML Practical -->
+            <div class="pricing-card">
+                <div>
+                    <div style="font-size: 2.2rem; margin-bottom: 12px;">🤖</div>
+                    <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--text-primary);">Machine Learning: Practical Track</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
+                        Apply what you learn from the CampusX series to projects in your field. Explore the 200-project catalog across 10 disciplines and build your skills one project at a time.
+                    </p>
+                    <div class="tier-price-row">
+                        <span class="tier-price-val">$49</span>
+                        <span class="tier-price-sub">One-time payment</span>
+                    </div>
+                    <ul class="tier-feature-list" style="margin-top: 20px;">
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Explore 200 capstone projects</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Practice with relevant sensor datasets</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>FastAPI and Docker project examples</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Code review for your capstone portfolio</span></li>
+                    </ul>
+                </div>
+                <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px;" onclick="alert('Enrolled in 100 Days of ML Practical Labs! Welcome to AI Connectra Pro.')">
+                    <span>Choose ML Practical ($49)</span>
+                </button>
+            </div>
+
+            <!-- Deep Learning Practical -->
+            <div class="pricing-card">
+                <div>
+                    <div style="font-size: 2.2rem; margin-bottom: 12px;">🧠</div>
+                    <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--text-primary);">Deep Learning: Practical Track</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
+                        Work with image and transformer models, explore segmentation, and learn how optimisation affects deployment. Choose experiments that suit your data and computing resources.
+                    </p>
+                    <div class="tier-price-row">
+                        <span class="tier-price-val">$59</span>
+                        <span class="tier-price-sub">One-time payment</span>
+                    </div>
+                    <ul class="tier-feature-list" style="margin-top: 20px;">
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>GPU notebooks using PyTorch Lightning</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Explore YOLO and Vision Transformer models</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Model quantisation with TensorRT</span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span>Explore deployment on NVIDIA Jetson</span></li>
+                    </ul>
+                </div>
+                <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px;" onclick="alert('Enrolled in Deep Learning GPU Labs! Welcome to AI Connectra Pro.')">
+                    <span>Choose Deep Learning Practical ($59)</span>
+                </button>
+            </div>
+
+            <!-- ALL ACCESS BUNDLE -->
+            <div class="pricing-card featured">
+                <div class="pricing-card-badge">★ All Three Tracks · Save $38 ★</div>
+                <div>
+                    <div style="font-size: 2.2rem; margin-bottom: 12px;">🎓</div>
+                    <h3 style="font-size: 1.45rem; font-weight: 800; margin-bottom: 8px; color: var(--blue-accent);">All Three Practical Tracks</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 20px;">
+                        Bring your learning together with Python, Machine Learning, and Deep Learning practical tracks, plus access to the 200-project capstone catalog.
+                    </p>
+                    <div class="tier-price-row">
+                        <span class="tier-price-val" style="color: var(--blue-accent);">$99</span>
+                        <span class="tier-price-sub" style="text-decoration: line-through; color: var(--text-dim); margin-left: 6px;">$137</span>
+                        <span class="tier-price-sub" style="color: #34d399; font-weight: 700; margin-left: 6px;">Lifetime Access</span>
+                    </div>
+                    <ul class="tier-feature-list" style="margin-top: 20px;">
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>Practical repositories across all three tracks</strong></span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>Priority code review support</strong></span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>200 capstone projects and associated datasets</strong></span></li>
+                        <li class="tier-feature-item"><span class="tier-check-icon">✓</span> <span><strong>Check course completion and certificate details</strong></span></li>
+                    </ul>
+                </div>
+                <button class="btn-course-primary" style="width: 100%; justify-content: center; margin-top: 20px; background: linear-gradient(135deg, #0284c7, #38bdf8); color: #041026;" onclick="alert('Welcome to the All-Access Master Academy Bundle! Complete access granted.')">
+                    <span>Choose All Three Tracks ($99)</span>
+                </button>
+            </div>
+        </div>
     </div>
 
     <!-- ====================================================================
          VIEW 6: DEDICATED "HOW AI RELATES TO YOUR DISCIPLINE" PAGE
          ==================================================================== -->
     <div class="view-stage container" id="viewDisciplineRelevance">
-      <div class="breadcrumbs-shell">
-        <div class="breadcrumbs-trail">
-          <span class="crumb-clickable" onclick="navigateToSubjects()">
-            <span>🏛️</span> <span>All Disciplines</span>
-          </span>
-          <span>/</span>
-          <span class="crumb-active">🧭 Interdisciplinary Relevance & Domain Mapping</span>
+        <div class="breadcrumbs-shell">
+            <div class="breadcrumbs-trail">
+                <span class="crumb-clickable" onclick="navigateToSubjects()">
+                    <span>🏛️</span> <span>All Disciplines</span>
+                </span>
+                <span>/</span>
+                <span class="crumb-active">🧭 AI in Your Discipline</span>
+            </div>
+
+            <button class="btn-back-stage" onclick="navigateToSubjects()">
+                <span>←</span> <span>Back to Home</span>
+            </button>
         </div>
 
-        <button class="btn-back-stage" onclick="navigateToSubjects()">
-          <span>←</span> <span>Back to Home</span>
-        </button>
-      </div>
+        <!-- Hero Banner for Discipline Relevance Page -->
+        <div class="course-hero-banner">
+            <div class="course-badge-cluster">
+                <span class="badge-course-type">✦ YOUR SUBJECT KNOWLEDGE IS THE STARTING POINT ✦</span>
+                <span class="badge-free-tag">10 Disciplines</span>
+                <span class="badge-paid-tag">200 Capstone Projects</span>
+            </div>
 
-      <!-- Hero Banner for Discipline Relevance Page -->
-      <div class="course-hero-banner">
-        <div class="course-badge-cluster">
-          <span class="badge-course-type">✦ Domain Relevance & Practical Utility ✦</span>
-          <span class="badge-free-tag">10 Disciplines</span>
-          <span class="badge-paid-tag">200 Capstone Projects</span>
+            <h1 class="course-title-main">
+                Discover What AI Could Help You Build <br>
+                <span class="gradient-text-blue">In the Field You Know Best</span>
+            </h1>
+
+            <p class="course-desc-lead">
+                Every discipline has questions worth exploring—from changing energy demand to crop health, business decisions, and learning outcomes. Your subject knowledge helps you ask better questions, while <strong>AI offers tools to explore patterns, make predictions, and test possible solutions</strong>. Choose your field to discover where Python, Machine Learning, and Deep Learning could support your work.
+            </p>
+
+            <div class="course-action-cluster">
+                <button class="btn-course-primary" onclick="openCourseView('ml')">
+                    <span>🎓 Explore the Machine Learning Track</span>
+                </button>
+                <button class="btn-course-secondary" onclick="openCompareTracksView()">
+                    <span>💎 Compare Learning Tracks</span>
+                </button>
+            </div>
         </div>
 
-        <h1 class="course-title-main">
-          Why Artificial Intelligence is Essential <br>
-          <span class="gradient-text-blue">For Every Engineering & Business Domain</span>
-        </h1>
-
-        <p class="course-desc-lead">
-          Classical engineering relies on deterministic differential equations and static heuristics. In the modern era of high-frequency sensor telemetry, variable renewable power, and complex supply chains, <strong>data-driven machine intelligence transforms reactive systems into adaptive, self-optimizing ecosystems</strong>. Select your field below to explore the exact role of Python, Machine Learning, and Deep Learning in your domain.
-        </p>
-
-        <div class="course-action-cluster">
-          <button class="btn-course-primary" onclick="openCourseView('ml')">
-            <span>🎓 Browse 100 Days ML Masterclass</span>
-          </button>
-          <button class="btn-course-secondary" onclick="openCompareTracksView()">
-            <span>💎 Compare Free vs Paid Tracks</span>
-          </button>
+        <!-- Discipline Switcher Tabs on Dedicated Page -->
+        <div class="essential-dept-tabs" id="pageRelevanceTabs" style="margin-bottom: 34px;">
+            <button class="dept-tab-btn active" onclick="renderDedicatedDisciplinePage('eee')">
+                <span>⚡</span> <span>Electrical (EEE)</span>
+            </button>
+            <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('ece')">
+                <span>📡</span> <span>Telecom & ECE</span>
+            </button>
+            <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('civil')">
+                <span>🏗️</span> <span>Civil Engineering</span>
+            </button>
+            <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('agriculture')">
+                <span>🌱</span> <span>Smart Agriculture</span>
+            </button>
+            <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('business')">
+                <span>📈</span> <span>FinTech & Business</span>
+            </button>
+            <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('healthcare')">
+                <span>🏥</span> <span>Healthcare & Bio</span>
+            </button>
+            <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('cs')">
+                <span>💻</span> <span>Computer Science</span>
+            </button>
         </div>
-      </div>
 
-      <!-- Discipline Switcher Tabs on Dedicated Page -->
-      <div class="essential-dept-tabs" id="pageRelevanceTabs" style="margin-bottom: 34px;">
-        <button class="dept-tab-btn active" onclick="renderDedicatedDisciplinePage('eee')">
-          <span>⚡</span> <span>Electrical (EEE)</span>
-        </button>
-        <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('ece')">
-          <span>📡</span> <span>Telecom & ECE</span>
-        </button>
-        <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('civil')">
-          <span>🏗️</span> <span>Civil Engineering</span>
-        </button>
-        <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('agriculture')">
-          <span>🌱</span> <span>Smart Agriculture</span>
-        </button>
-        <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('business')">
-          <span>📈</span> <span>FinTech & Business</span>
-        </button>
-        <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('healthcare')">
-          <span>🏥</span> <span>Healthcare & Bio</span>
-        </button>
-        <button class="dept-tab-btn" onclick="renderDedicatedDisciplinePage('cs')">
-          <span>💻</span> <span>Computer Science</span>
-        </button>
-      </div>
-
-      <!-- Dedicated Dynamic Container for the Selected Discipline -->
-      <div id="dedicatedDisciplineContent">
-        <!-- Injected dynamically via JS -->
-      </div>
+        <!-- Dedicated Dynamic Container for the Selected Discipline -->
+        <div id="dedicatedDisciplineContent">
+            <!-- Injected dynamically via JS -->
+        </div>
     </div>
 
-  </main>
+</main>
 @section Scripts {
-  <script src="~/js/data.js" defer></script>
-  <script src="~/js/catalog-extension.js" defer></script>
-  <script src="~/js/app.js" defer></script>
+    <script src="~/js/data.js" defer></script>
+    <script src="~/js/catalog-extension.js" defer></script>
+    <script src="~/js/app.js" defer></script>
 }
