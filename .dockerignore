@@ -1,0 +1,7 @@
+# Keep local Visual Studio and .NET build output out of the Docker build context.
+.vs/
+bin/
+obj/
+.cr/
+.git/
+.gitignore
