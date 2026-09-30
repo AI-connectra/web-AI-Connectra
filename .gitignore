@@ -1,0 +1,7 @@
+# Visual Studio workspace and user-specific settings
+.vs/
+*.csproj.user
+
+# .NET build artifacts
+bin/
+obj/
