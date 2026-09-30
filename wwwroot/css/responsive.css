@@ -39,6 +39,21 @@
       font-size: 0.88rem;
       color: var(--text-dim);
     }
+    .footer-contact {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 14px;
+      margin-top: 8px;
+      font-size: 0.82rem;
+      font-style: normal;
+    }
+    .footer-contact a {
+      color: var(--text-secondary);
+      text-decoration: none;
+    }
+    .footer-contact a:hover {
+      color: var(--blue-accent);
+    }
     .footer-links {
       display: flex;
       align-items: center;
@@ -58,6 +73,14 @@
     }
 
     @media (max-width: 960px) {
+      .footer-inner,
+      .footer-brand {
+        align-items: flex-start;
+      }
+      .footer-contact {
+        flex-direction: column;
+        gap: 5px;
+      }
       .hero-headline-stylish { font-size: 2.6rem; }
       .cockpit-grid-4 { grid-template-columns: 1fr; }
       .pipeline-grid-steps { grid-template-columns: 1fr; }
