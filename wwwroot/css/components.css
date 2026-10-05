@@ -1728,50 +1728,65 @@
     .project-deliverables li span { display: grid; place-items: center; flex: 0 0 24px; height: 24px; border-radius: 50%; background: var(--dept-color, var(--blue-accent)); color: #fff; font-weight: 800; }
     .project-hardware { margin-top: 18px; }
 
-    /* Assessment, roadmap, and submission guide shared by every capstone. */
-    .project-submission-guide { margin: 34px 0; padding: 30px; border: 1px solid #d7e6df; border-radius: 18px; background: #f9fbfa; color: #173a41; }
-    .project-submission-guide h2, .project-submission-guide h3 { color: #153b44; }
-    .project-submission-guide p { color: #5f777d; }
+    /* Project submission guide: matches the preceding project workflow section. */
+    .project-submission-guide {
+      --guide-accent: var(--dept-color, var(--blue-accent));
+      margin: 34px 0;
+      padding: 30px;
+      border: 1px solid var(--border-subtle);
+      border-radius: 18px;
+      background: var(--bg-card);
+      color: var(--text-primary);
+    }
+    .project-submission-guide h2, .project-submission-guide h3 { color: var(--text-primary); }
+    .project-submission-guide p { color: var(--text-secondary); }
+    .project-submission-guide .section-tag-badge { color: var(--guide-accent); }
     .guide-heading h2 { margin: 10px 0 7px; font-size: clamp(1.55rem, 3vw, 2.15rem); }
     .guide-heading p { margin: 0; font-size: .9rem; }
     .project-roadmap { display: grid; grid-template-columns: repeat(6, minmax(0, 1fr)); gap: 9px; margin: 21px 0 28px; }
-    .roadmap-item { min-height: 92px; padding: 13px; border: 1px solid transparent; border-radius: 9px; background: #eff6f3; cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease; }
-    .roadmap-item:hover { transform: translateY(-3px); border-color: #82b8a5; background: #e7f3ed; box-shadow: 0 10px 20px rgba(13, 83, 65, .11); }
-    .roadmap-item strong { display: block; color: #087a63; font-size: .65rem; text-transform: uppercase; }
-    .roadmap-item span { display: block; margin-top: 8px; color: #31545b; font-size: .68rem; line-height: 1.4; }
+    .roadmap-item { min-height: 92px; padding: 13px; border: 1px solid var(--border-subtle); border-radius: 9px; background: var(--bg-elevated); cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease; }
+    .roadmap-item:hover { transform: translateY(-3px); border-color: var(--guide-accent); background: color-mix(in srgb, var(--guide-accent) 12%, var(--bg-elevated)); box-shadow: 0 10px 20px var(--dept-glow, rgba(56, 189, 248, .11)); }
+    .roadmap-item strong { display: block; color: var(--guide-accent); font-size: .65rem; text-transform: uppercase; }
+    .roadmap-item span { display: block; margin-top: 8px; color: var(--text-secondary); font-size: .68rem; line-height: 1.4; }
     .guide-subheading { margin: 0 0 10px; font-size: 1rem; }
-    .rubric-scroll { overflow-x: auto; border: 1px solid #cfe0d9; border-radius: 9px; background: #eff6f3; transition: border-color .18s ease, box-shadow .18s ease; }
-    .rubric-scroll:hover { border-color: #82b8a5; box-shadow: 0 8px 18px rgba(13, 83, 65, .09); }
+    .rubric-scroll { overflow-x: auto; border: 1px solid var(--border-subtle); border-radius: 9px; background: var(--bg-elevated); transition: border-color .18s ease, box-shadow .18s ease; }
+    .rubric-scroll:hover { border-color: var(--guide-accent); box-shadow: 0 8px 18px var(--dept-glow, rgba(56, 189, 248, .09)); }
     .project-rubric { width: 100%; min-width: 620px; border-collapse: collapse; font-size: .72rem; }
-    .project-rubric th { padding: 10px 12px; text-align: left; background: #087a63; color: #fff; font-weight: 700; }
-    .project-rubric td { padding: 9px 12px; color: #36565d; border-top: 1px solid #d7e6df; }
+    .project-rubric th { padding: 10px 12px; text-align: left; background: var(--guide-accent); color: #fff; font-weight: 700; }
+    .project-rubric td { padding: 9px 12px; color: var(--text-secondary); border-top: 1px solid var(--border-subtle); }
     .project-rubric tbody tr { cursor: pointer; transition: background .18s ease; }
-    .project-rubric tbody tr:hover { background: #e0f0e8; }
-    .project-rubric tbody tr:nth-child(even) { background: #f1f7f4; }
+    .project-rubric tbody tr:hover { background: color-mix(in srgb, var(--guide-accent) 10%, var(--bg-elevated)); }
+    .project-rubric tbody tr:nth-child(even) { background: color-mix(in srgb, var(--guide-accent) 4%, var(--bg-elevated)); }
     .submission-columns { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 30px; }
-    .guide-workflow-card, .guide-deliverables-card, .guide-support-card, .guide-submit-card { padding: 21px; border: 1px solid #d4e2dc; border-radius: 12px; background: #eff6f3; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease; }
-    .guide-workflow-card:hover, .guide-deliverables-card:hover, .guide-support-card:hover, .guide-submit-card:hover { transform: translateY(-3px); border-color: #82b8a5; background: #e7f3ed; box-shadow: 0 10px 20px rgba(13, 83, 65, .11); }
+    .guide-workflow-card, .guide-deliverables-card, .guide-support-card, .guide-submit-card { padding: 21px; border: 1px solid var(--border-subtle); border-radius: 12px; background: var(--bg-elevated); transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease; }
+    .guide-workflow-card:hover, .guide-deliverables-card:hover, .guide-support-card:hover, .guide-submit-card:hover { transform: translateY(-3px); border-color: var(--guide-accent); background: color-mix(in srgb, var(--guide-accent) 12%, var(--bg-elevated)); box-shadow: 0 10px 20px var(--dept-glow, rgba(56, 189, 248, .11)); }
     .guide-workflow-card h3, .guide-deliverables-card h3, .guide-support-card h3, .guide-submit-card h3 { margin: 0; font-size: 1rem; }
     .guide-workflow-card p, .guide-deliverables-card p { margin: 7px 0 15px; font-size: .76rem; }
     .guide-workflow-card ol { display: grid; gap: 7px; margin: 0; padding: 0; list-style: none; counter-reset: workflow; }
-    .guide-workflow-card li { counter-increment: workflow; padding: 10px 12px; border: 1px solid #d7e6df; border-radius: 6px; background: #fff; color: #31545b; font-size: .75rem; cursor: pointer; transition: border-color .18s ease, background .18s ease, transform .18s ease; }
-    .guide-workflow-card li:hover { transform: translateX(3px); border-color: #82b8a5; background: #f9fdfb; }
-    .guide-workflow-card li::before { content: counter(workflow) '. '; color: #087a63; font-weight: 800; }
+    .guide-workflow-card li { counter-increment: workflow; padding: 10px 12px; border: 1px solid var(--border-subtle); border-radius: 6px; background: var(--bg-card); color: var(--text-secondary); font-size: .75rem; cursor: pointer; transition: border-color .18s ease, background .18s ease, transform .18s ease; }
+    .guide-workflow-card li:hover { transform: translateX(3px); border-color: var(--guide-accent); background: color-mix(in srgb, var(--guide-accent) 8%, var(--bg-card)); }
+    .guide-workflow-card li::before { content: counter(workflow) '. '; color: var(--guide-accent); font-weight: 800; }
     .guide-deliverables-card ul { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
-    .guide-deliverables-card li { color: #31545b; font-size: .76rem; line-height: 1.4; cursor: pointer; transition: color .18s ease, transform .18s ease; }
-    .guide-deliverables-card li:hover { color: #087a63; transform: translateX(3px); }
-    .guide-deliverables-card li::before { content: '✓'; display: inline-grid; place-items: center; width: 17px; height: 17px; margin-right: 8px; border-radius: 50%; background: #087a63; color: #fff; font-size: .65rem; font-weight: 800; }
-    .guide-tool-tags { display: flex; flex-wrap: wrap; gap: 7px; padding-top: 14px; margin-top: 14px; border-top: 1px solid #d7e6df; }
-    .guide-tool-tags span { padding: 5px 9px; border: 1px solid #cfe0d9; border-radius: 5px; color: #087a63; background: #fff; font-size: .65rem; cursor: pointer; transition: border-color .18s ease, background .18s ease, transform .18s ease; }
-    .guide-tool-tags span:hover { transform: translateY(-2px); border-color: #087a63; background: #e7f3ed; }
+    .guide-deliverables-card li { color: var(--text-secondary); font-size: .76rem; line-height: 1.4; cursor: pointer; transition: color .18s ease, transform .18s ease; }
+    .guide-deliverables-card li:hover { color: var(--guide-accent); transform: translateX(3px); }
+    .guide-deliverables-card li::before { content: '✓'; display: inline-grid; place-items: center; width: 17px; height: 17px; margin-right: 8px; border-radius: 50%; background: var(--guide-accent); color: #fff; font-size: .65rem; font-weight: 800; }
+    .guide-tool-tags { display: flex; flex-wrap: wrap; gap: 7px; padding-top: 14px; margin-top: 14px; border-top: 1px solid var(--border-subtle); }
+    .guide-tool-tags span { padding: 5px 9px; border: 1px solid var(--border-subtle); border-radius: 5px; color: var(--guide-accent); background: var(--bg-card); font-size: .65rem; cursor: pointer; transition: border-color .18s ease, background .18s ease, transform .18s ease; }
+    .guide-tool-tags span:hover { transform: translateY(-2px); border-color: var(--guide-accent); background: color-mix(in srgb, var(--guide-accent) 8%, var(--bg-card)); }
     .guide-bottom-row { margin-top: 20px; }
     .guide-support-card p { margin: 14px 0 0; font-size: .78rem; line-height: 1.65; }
-    .guide-submit-card { color: #173a41; cursor: pointer; }
-    .guide-submit-card h3, .guide-submit-card dt { color: #153b44; }
+    .guide-submit-card { color: var(--text-primary); cursor: pointer; }
+    .guide-submit-card h3, .guide-submit-card dt { color: var(--text-primary); }
     .guide-submit-card dl { display: grid; grid-template-columns: 72px 1fr; gap: 7px 11px; margin: 15px 0 0; font-size: .72rem; }
-    .guide-submit-card dt { font-weight: 800; }.guide-submit-card dd { margin: 0; color: #527078; }
-    .guide-faq { margin-top: 29px; }.guide-faq h3 { margin-bottom: 12px; font-size: 1rem; }.guide-faq > div { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
-    .guide-faq details { border: 1px solid #d4e2dc; border-radius: 7px; background: #eff6f3; overflow: hidden; cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease; }.guide-faq details:hover { transform: translateY(-2px); border-color: #82b8a5; background: #e7f3ed; box-shadow: 0 8px 18px rgba(13, 83, 65, .1); }.guide-faq summary { padding: 11px 13px; color: #274b52; font-size: .74rem; font-weight: 700; cursor: pointer; }.guide-faq p { padding: 0 13px 12px; margin: 0; color: #527078; font-size: .72rem; }
+    .guide-submit-card dt { font-weight: 800; }
+    .guide-submit-card dd { margin: 0; color: var(--text-secondary); }
+    .guide-faq { margin-top: 29px; }
+    .guide-faq h3 { margin-bottom: 12px; font-size: 1rem; }
+    .guide-faq > div { display: grid; grid-template-columns: 1fr 1fr; gap: 9px; }
+    .guide-faq details { border: 1px solid var(--border-subtle); border-radius: 7px; background: var(--bg-elevated); overflow: hidden; cursor: pointer; transition: transform .18s ease, border-color .18s ease, box-shadow .18s ease, background .18s ease; }
+    .guide-faq details:hover { transform: translateY(-2px); border-color: var(--guide-accent); background: color-mix(in srgb, var(--guide-accent) 12%, var(--bg-elevated)); box-shadow: 0 8px 18px var(--dept-glow, rgba(56, 189, 248, .1)); }
+    .guide-faq summary { padding: 11px 13px; color: var(--text-primary); font-size: .74rem; font-weight: 700; cursor: pointer; }
+    .guide-faq p { padding: 0 13px 12px; margin: 0; color: var(--text-secondary); font-size: .72rem; }
 
     @media (max-width: 800px) {
       .project-detail-hero { grid-template-columns: 1fr; padding: 32px 24px; gap: 24px; }

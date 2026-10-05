@@ -4204,8 +4204,8 @@
         badge: "Beginner foundations, then practical extensions",
         freeDesc: "New to programming? Start with variables, conditions, loops, and functions. Build towards data analysis with NumPy and Pandas, then return to advanced Python topics when you need them.",
         paidDesc: "Explore practical Python project work after the basics. Check the selected course details for available notebooks, review support, and access terms before enrolling.",
-        playlistUrl: "https://www.youtube.com/watch?v=kqtD5dpn9C8&list=PLKnIA16_Rmvb1m_BqV_eE9dJ3pW3_j_z1",
-        embedUrl: "https://www.youtube.com/embed/kqtD5dpn9C8",
+        // playlistUrl: "https:www.youtube.com/watch?v=kqtD5dpn9C8&list=PLKnIA16_Rmvb1m_BqV_eE9dJ3pW3_j_z1",
+        // embedUrl: "https:www.youtube.com/embed/kqtD5dpn9C8",
         playlistName: "Python for Data Science & AI Foundations",
         freeFeatures: [
           "Beginner Python: variables, conditions, loops, and functions",
@@ -4243,8 +4243,8 @@
         badge: "Learn with the CampusX 100 Days of ML series",
         freeDesc: "Use the free CampusX video series alongside this suggested learning path. Start with one clear prediction task, then learn how to prepare data, compare models, and interpret errors. The steps below organise your learning; they are not a verified day-by-day map of the playlist.",
         paidDesc: "Explore 200 capstone project outlines across 10 disciplines, from guided beginner baselines to advanced investigations. Choose one manageable scope, keep an experiment log, and build evidence you can explain. Check which teaching resources and support are available for your selected track.",
-        playlistUrl: "https://www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
-        embedUrl: "https://www.youtube.com/embed/ZftI2fEz0Fw?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
+        // playlistUrl: "https:www.youtube.com/watch?v=ZftI2fEz0Fw&list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
+        // embedUrl: "https:www.youtube.com/embed/ZftI2fEz0Fw?list=PLKnIA16_Rmvbr7zKYQuBfsVkjoLcJgxHH",
         playlistName: "100 Days of Machine Learning by CampusX",
         freeFeatures: [
           "Explore the CampusX 100 Days of Machine Learning videos",
@@ -4285,8 +4285,8 @@
         badge: "Build on Python and Machine Learning foundations",
         freeDesc: "Start with small neural networks and learn what happens during training. Once you can evaluate a baseline, explore images, sequences, and attention models. Some mathematical and programming preparation will help.",
         paidDesc: "Explore practical neural-network experiments with a manageable dataset. Compare against simpler models before considering larger architectures, optimisation, or device deployment. GPU availability and course resources should be checked in advance.",
-        playlistUrl: "https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
-        embedUrl: "https://www.youtube.com/embed/aircAruvnKk",
+        // playlistUrl: "https:www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+        // embedUrl: "https:www.youtube.com/embed/aircAruvnKk",
         playlistName: "Neural Networks & Deep Learning Foundations",
         freeFeatures: [
           "Understand neurons, activations, and small feed-forward networks",
