@@ -741,6 +741,56 @@
       gap: 10px 12px;
       flex-wrap: wrap;
     }
+    .discipline-marquee {
+      margin: 26px 0 30px;
+      padding-bottom: 18px;
+      overflow: hidden;
+    }
+    .discipline-marquee-viewport {
+      overflow: hidden;
+      margin: 0 -24px -6px;
+      padding: 0 24px 6px;
+      -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+      mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+    }
+    .discipline-marquee-track {
+      display: flex;
+      width: max-content;
+      gap: 12px;
+      animation: discipline-pill-marquee 42s linear infinite;
+      will-change: transform;
+    }
+    .discipline-marquee .strip-pills-container {
+      flex: 0 0 auto;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      gap: 12px;
+      padding: 2px 0;
+    }
+    .discipline-marquee .academic-pill-btn {
+      flex: 0 0 auto;
+      white-space: nowrap;
+    }
+    .discipline-marquee:hover .discipline-marquee-track,
+    .discipline-marquee:focus-within .discipline-marquee-track {
+      animation-play-state: paused;
+    }
+    @keyframes discipline-pill-marquee {
+      to { transform: translateX(calc(-50% - 6px)); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .discipline-marquee-viewport {
+        overflow-x: auto;
+        -webkit-mask-image: none;
+        mask-image: none;
+      }
+      .discipline-marquee-track {
+        animation: none;
+      }
+      .discipline-marquee-copy {
+        display: none;
+      }
+    }
     .academic-pill-btn {
       display: inline-flex;
       align-items: center;
